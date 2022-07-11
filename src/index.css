@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: "Nunito", sans-serif;
+
+  --font-size__home: min(12.5vw, 3.5rem);
+  --line-height__home: normal;
+
+  --font-size__header: min(10vw, 2.8rem);
+  --line-height__header: normal;
+
+  --font-size__sub_heading: min(6vw, 1.8rem);
+  --line-height__sub_heading: normal;
+
+  --font-size__identifier: min(5vw, 1.65rem);
+  --line-height__identifier: normal;
+
+  --font-size__title: min(4.3vw, 1.1rem);
+  --line-height__title: normal;
+
+  --font-size__text: min(3.5vw, 1rem);
+  --line-height__text: normal;
+
+  --gradient-text: linear-gradient(90deg, rgba(46, 104, 41, 1) 0%, rgba(115, 162, 5, 1) 100%);
+  --gradient-bar: linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+
+  --color-navbar: linear-gradient(1deg, rgba(4, 4, 4, 1) 0%, rgba(35, 61, 7, 1) 100%);
+  --color-home: white;
+  --color-achievements: white;
+  --color-skills: white;
+  --color-experiences: white;
+  --color-projects: white;
+  --color-contact: white;
+  --color-footer : linear-gradient(1deg, rgba(4, 4, 4, 1) 0%, rgba(35, 61, 7, 1) 100%);
+
+  --color-bg: #040C18;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+}

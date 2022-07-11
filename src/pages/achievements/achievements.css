@@ -1,0 +1,39 @@
+.charles__achievements {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-achievements);
+}
+
+.charles__achievements-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: min(5vw, 3rem);
+}
+
+.charles__achievements-heading h1 {
+    font-size: var(--font-size__header);
+    line-height: var(--line_height__header);
+    font-weight: 800;
+    font-family: var(--font-family);
+}
+
+@media screen and (max-width: 850px) {
+    .charles__achievements-heading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .charles__features-container__feature {
+        flex-direction: column;
+    }
+
+    .charles__features-container__feature-title {
+        margin-right: 0;
+    }
+}
+
+

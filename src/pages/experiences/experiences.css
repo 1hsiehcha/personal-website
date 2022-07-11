@@ -1,0 +1,76 @@
+.charles__experiences {
+    background: var(--color-experiences);
+    display: flex;
+    flex-direction: column;
+}
+
+.charles__experiences h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: var(--font-size__header);
+    line-height: var(--line-height__header);
+    margin-bottom: min(15vw, 3rem);
+}
+
+.charles__experiences__container-odd_variation {
+    background: lightgray;
+}
+
+.charles__experiences__container-even_variation {
+    background: rgb(213, 222, 170);
+}
+
+.charles__experiences__container-odd_variation p, 
+.charles__experiences__container-even_variation p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: var(--font-size__text);
+    margin-right: min(5vw, 0.8rem);
+}
+
+.charles__experiences__container-format {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: min(5vw, 3rem);
+}
+
+
+.charles__experiences__container-format h2 {
+    flex: 1.3;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: var(--font-size__text);
+    line-height: var(--line-height__text);
+    margin-right: min(30vw, 1.5rem);
+}
+
+.charles__experiences__container-format h3 {
+    flex: 1;
+    margin-right: min(15vw, 0.8rem);
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: var(--font-size__text);
+    line-height: var(--line-height__text);
+}
+
+@media screen and (max-width: 780px) {
+    .charles__experiences__container-format {
+        flex-direction: column;
+    }
+
+    .charles__experiences__container-format h3 {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 180px) {
+    .charles__experiences__container-format h2 {
+        margin-bottom: min(-0.8vw, 1rem);
+    }
+
+    .charles__experiences__container-format h3 {
+        margin-bottom: min(-0.8vw, 1rem);
+    }
+}

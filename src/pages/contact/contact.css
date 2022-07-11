@@ -1,0 +1,81 @@
+.charles__contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--color-contact);
+}
+
+.charles__contact h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-style: normal;
+    font-size: var(--font-size__header);
+    line-height: var(--line-height__header);
+    margin-bottom: min(10vw, 2.5rem);
+}
+
+.charles__contact__word_display {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: min(3.5vw, 2.5rem);
+}
+
+.charles__contact__word_display p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: var(--font-size__identifier);
+    line-height: var(--font-size__identifier);
+}
+
+.charles__contact__word_display a {
+    color: black;
+    margin-left: min(5vw, 0.5rem);
+}
+
+.charles__contact__word_display a:hover {
+    cursor: pointer;
+    transition: 150ms;
+    border-radius: 2%;
+    color: lightgreen;
+    box-shadow: 0 0 0 min(1vw, 0.35rem) black;
+    background: black;
+}
+
+.charles__contact__icon_container {
+    text-align: center;
+}
+
+.charles__contact__icon_container-section {
+    display: inline-block;
+}
+
+.charles__contact__icon_container-section a img {
+    max-block-size: min(25vw, 8rem);
+    margin-left: min(3vw, 0.5rem);
+    margin-right: min(1vw, 2rem);
+    margin-bottom: min(2vw, 0.5rem);
+    border-radius: 25%;
+}
+
+.charles__contact__icon_container-section p {
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: var(--font-size__identifier);
+    line-height: var(--line-height__identifier);
+    vertical-align: middle;
+}
+
+.charles__contact__icon_container-section a img:hover {
+    transition: 50ms;
+    border-color: brown;
+    border-radius: 25%;
+    border-width: min(1.2vw, 0.5rem);
+    border-style: outset;
+}
+
+@media screen and (max-width: 115px) {
+    .charles__contact__word_display {
+        margin-bottom: min(-0.5vw, -0.5rem);
+    }
+}

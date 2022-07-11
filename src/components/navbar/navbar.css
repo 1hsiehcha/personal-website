@@ -1,0 +1,105 @@
+.charles__navbar {
+    background: var(--color-navbar);
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: min(7vw, 2rem) min(8vw, 5rem);
+}
+
+.charles__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.charles__navbar-links_logo {
+    margin-right: min(10vw, 2rem);
+}
+
+.charles__navbar-links_logo img {
+    width: min(35vw, 5.5rem);
+    height: auto;
+    background-color: transparent;
+}
+
+.charles__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.charles__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.charles__navbar-links_container p,
+.charles__navbar-sign p,
+.charles__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: var(--font-size__title);
+    line-height: var(--line-height__title);
+    text-transform: capitalize;
+    margin: 0 min(5vw, 1rem);
+    cursor: pointer;
+}
+
+.charles__navbar-menu {
+    margin-left: 0;
+    display: none;
+    position: relative;
+    vertical-align: middle;
+}
+
+.charles__navbar-menu img {
+    cursor: pointer;
+    max-block-size: min(10vw, 2rem);
+    vertical-align: middle;
+}
+
+.charles__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: min(6vw, 1rem);
+    position: absolute;
+    right: 0;
+    margin-top: 0;
+    min-width: min(28vw, 20rem);
+    border-radius: 2%;
+    box-shadow: 0px 0px min(8vw, 1rem) rgba(0, 0, 0, 0.2);
+}
+
+.charles__navbar-menu_container p {
+    margin: min(5vw, 0.8rem) 0;
+}
+
+.charles__navbar-menu_container-links p span:hover,
+.charles__navbar-links_container p span:hover {
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    border-radius: 1%;
+    color: green;
+    background-color: gold;
+}
+
+.charles__navbar-links_logo img:hover {
+    background: yellowgreen;
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 1050px) {
+    .charles__navbar-links_container {
+        display: none;
+    }
+
+    .charles__navbar-menu {
+        display: inline-block;
+    }
+}
