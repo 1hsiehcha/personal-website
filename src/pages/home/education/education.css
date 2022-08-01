@@ -1,61 +1,48 @@
 .charles__education {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.charles__education h1 {
-    font-family: var(--font-family);
-    line-height: var(--line-height__header);
-    font-weight: 800;
-    font-size: var(--font-size__header);
-    color: black;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .charles__education__container {
-    margin-top: min(5vw, 2rem);
-    margin-bottom: min(10vw, 2rem);
+  margin-top: min(5vw, 2rem);
+  margin-bottom: min(10vw, 2rem);
 }
 
 .charles__education__container-center_aligned {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .charles__education__container-center_aligned img {
-    max-block-size: min(50vw, 6rem);
-    margin-bottom: min(5vw, 0.3rem);
+  max-block-size: min(35vw, 6rem);
+  margin-bottom: min(5vw, 0.3rem);
+  pointer-events: none;
 }
 
 
 .charles__education__container-center_aligned h2 {
-    font-family: var(--font-family);
-    font-weight: 800;
-    font-size: var(--font-size__identifier);
-    line-height: var(--line-height__identifier);
-    color: black;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: var(--font-size__identifier);
+  line-height: var(--line-height__identifier);
+  color: black;
+  margin-bottom: min(6vw, 1rem);
 }
 
 .charles__education__container-left_aligned {
-    justify-content: left;
-    align-items: left;
-    text-align: left;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  margin-bottom: 0;
 }
 
 .charles__education__container-left_aligned p {
-    font-family: var(--font-family);
-    color: black;   
-    font-size: var(--font-size__text);
-}
-
-@media screen and (max-width: 690px) {
-    .charles__education__container-center_aligned {
-        justify-content: left;
-        align-items: left;
-        text-align: left; 
-    }
+  font-family: var(--font-family);
+  color: black;   
+  font-size: var(--font-size__text);
+  font-weight: 500;
+  margin-bottom: 0;
 }

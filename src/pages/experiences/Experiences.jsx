@@ -1,24 +1,44 @@
 import React from 'react';
 import './experiences.css';
 import { Footer } from '../../components';
-import Container from './Container';
+import ExperiencesContainer from './ExperiencesContainer';
 
-const Experiences = () => {
+const ExperiencesList = () => {
   return (
     <>
-      <div className="charles__experiences section__padding">
+      <ExperiencesContainer 
+        background={false}
+        name={
+          <>
+            Toward More Effective Teaching and Learning in Engineering Education
+          </>
+        }
+        type={"Type: Academic"}
+        date={"Date: Jul. 2022"}
+        position={"Position: Focus Group Participant"}
+        description={
+          <>
+            This is a research project conducted by University of Toronto and is led by
+            "Institute for Studies in Transdisciplinary Engineering Education and 
+            Practice" (ISTEP). This research study is intended to look at the learning
+            effectiveness of different types of instruction that been presented as a result
+            of the COVID-19 pandemic. The types of instruction include in-person, online 
+            synchronous, and asynchronous learning. Dr. Qin Liu has talked with Charles 
+            about ways to boost learning efficiency and tailoring the ideal blend
+            of instruction for future courses. By taking the unique advantages of each 
+            type of instruction, the project hopes to take another step into perfecting
+            Engineering education. 
+          </>
+        }
+      />
 
-        <h1 className="gradient__text">
-          Experiences
-        </h1>
-
-        <Container 
-          background={"odd"}
-          name={"Engineering Strategies & Practice I & II"}
-          type={"Type: Academic"}
-          date={"Date: Sep. 2021 - Apr. 2022"}
-          position={"Position: Meeting Coordinator / Member"}
-          description={
+      <ExperiencesContainer 
+        background={true}
+        name={"Engineering Strategies & Practice I & II"}
+        type={"Type: Academic"}
+        date={"Date: Sep. 2021 - Apr. 2022"}
+        position={"Position: Meeting Coordinator / Member"}
+        description={
           <>
             Engineering Strategies and Practice, often known as "ESP", are courses
             offered to first year Engineering students to practice the skills of design
@@ -44,16 +64,17 @@ const Experiences = () => {
             physical experiments, the design proved to have a high heat resistance while being 
             relatively cheap. It required no maintenance and the process (production, construction,
             and implementation) yields a low carbon footprint.
-          </>}
-        />
+          </>
+        }
+      />
 
-        <Container 
-          background={"even"}
-          name={"Junior Optimist Club of Oakville"}
-          type={"Type: Volunteer"}
-          date={"Date: Jul. 2017 - Oct. 2020"}
-          position={"Position: Member"}
-          description={
+      <ExperiencesContainer 
+        background={false}
+        name={"Junior Optimist Club of Oakville"}
+        type={"Type: Volunteer"}
+        date={"Date: Jul. 2017 - Oct. 2020"}
+        position={"Position: Member"}
+        description={
           <>
             The Junior Optimist Club of Oakville is a non-profit organization
             that believes in the potential of youth. To fulfill this potential,
@@ -66,16 +87,17 @@ const Experiences = () => {
             requires leadership and communication skills as the club needs to work efficiently 
             under small groups. This enhanced his ability to plan and organize in
             order to meet their various deadlines.
-          </>}
-        />
+          </>
+        }
+      />
 
-        <Container 
-          background={"odd"}
-          name={"Fo Guan Shan Temple of Toronto"}
-          type={"Type: Volunteer"}
-          date={"Date: Jun. 2020 - Jul. 2020"}
-          position={"Position: N/A"}
-          description={
+      <ExperiencesContainer 
+        background={true}
+        name={"Fo Guan Shan Temple of Toronto"}
+        type={"Type: Volunteer"}
+        date={"Date: Jun. 2020 - Jul. 2020"}
+        position={"Position: N/A"}
+        description={
           <>
             This volunteer task involves working in the audio-visual department to create an 
             archive system for the hundreds of CDs, videotapes, and cassette players stored 
@@ -87,16 +109,17 @@ const Experiences = () => {
             special permission which involves the creation of a concrete plan to limit the 
             spread of the virus. By communicating effectively wit his coordinator, they came up
             with a plan that includes rigorous disinfection, PPEs, and self-conducting surveys.
-          </>}
-        />
+          </>
+        }
+      />
 
-        <Container 
-          background={"even"}
-          name={"Central Ontario Leadership Seminar"}
-          type={"Type: Nominated from High School"}
-          date={"Date: May 2019"}
-          position={"Position: Participant"}
-          description={
+      <ExperiencesContainer 
+        background={false}
+        name={"Central Ontario Leadership Seminar"}
+        type={"Type: Nominated from High School"}
+        date={"Date: May 2019"}
+        position={"Position: Participant"}
+        description={
           <>
             This seminar is held at the University of Toronto Mississauga Campus. Its
             purpose is to enhance leadership skills through a series of activities, workshops, 
@@ -104,16 +127,17 @@ const Experiences = () => {
             and collaboration skills were leveraged. Moreover, the seminar spanned over a short 
             period giving him the opportunity to get along with others quickly and find methods to 
             work well amongst a diverse group.
-          </>}
-        />
+          </>
+        }
+      />
 
-        <Container 
-          background={"odd"}
-          name={"Social Justice Club"}
-          type={"Type: Extra-curricular"}
-          date={"Date: Oct. 2017 - Mar. 2019"}
-          position={"Position: Member"}
-          description={
+      <ExperiencesContainer 
+        background={true}
+        name={"Social Justice Club"}
+        type={"Type: Extra-curricular"}
+        date={"Date: Oct. 2017 - Mar. 2019"}
+        position={"Position: Member"}
+        description={
           <>
             The social justice club is a school club designed to help those that are struggling
             financially in the Greater Toronto Area (GTA). This vision is executed by creating
@@ -126,31 +150,48 @@ const Experiences = () => {
             analysis skills to see which events people enjoy, how to raise more awareness, and 
             how to reach a larger audience. He also utilized his leadership skills to 
             guide and unite the club in order to work towards the same vision.
-          </>}
-        />
+          </>
+        }
+      />
 
-        <Container 
-          background={"even"}
-          name={"Oakville Little League Baseball"}
-          type={"Type: Volunteer"}
-          date={"Date: May 2017 - Oct. 2017"}
-          position={"Position: N/A"}
-          description={
+      <ExperiencesContainer 
+        background={false}
+        name={"Oakville Little League Baseball"}
+        type={"Type: Volunteer"}
+        date={"Date: May 2017 - Oct. 2017"}
+        position={"Position: N/A"}
+        description={
           <>
             The Oakville Little League Baseball is a developmental program for youth baseball.
             Under this organization, Charles served as a volunteer with his role fluctuating between
             the equipment crew and the official scorecard keeper.
             <br /><br />
             As a equipment crew, Charles learned how to use leadership skills to allow his group to 
-            deliver equipments on time and with the right set of procedure. Communication 
-            was used extensively amongst his team and his manager to ensure that all the protocols 
-            were met and the games are run smoothly.
+            deliver equipments on time and with the right set of procedure. Communication was used 
+            extensively amongst his team and his manager to ensure that all the protocols were met 
+            and the games are run smoothly.
             <br /><br />
-            The other role of being the official scorecard keeper which trained his ability to 
-            concentrate for long-duration of time. Since the games he covered where mostly championship 
-            games, Charles needed accuracy and accountability in his work. 
-          </>}
-        />
+            The other role of being the official scorecard keeper trained his ability to concentrate 
+            for long-duration of time. Since the games he covered where mostly championship games, 
+            Charles needed accuracy, precision, and accountability to be reflected in his work. 
+          </>
+        }
+      />
+    </>
+  )
+}
+
+const Experiences = () => {
+  return (
+    <>
+      <div className="charles__experiences section__padding">
+        <h1 className="gradient__text">Experiences</h1>
+
+        <p>
+          This page shows all of the experiences that Charles has gained through 
+          his professional, academic, and extra-curricular endeavour.
+        </p>
+        <ExperiencesList />
       </div>
       <Footer />
     </>

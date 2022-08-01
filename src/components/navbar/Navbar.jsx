@@ -5,14 +5,35 @@ import './navbar.css';
 import { menuBar, menuX } from './imports';
 import { NavLink } from 'react-router-dom';
 
+const ClickFeature = () => {
+  window.scrollTo({top: 0, left: 0});
+}
+
 const Menu = () => (
   <>
-    <p><span><NavLink to="/personal-website">Home</NavLink></span></p>
-    <p><span><NavLink to="/personal-website/achievements">Achievements</NavLink></span></p>
-    <p><span><NavLink to="/personal-website/skills">Skills</NavLink></span></p>
-    <p><span><NavLink to="/personal-website/experiences">Experiences</NavLink></span></p>
-    <p><span><NavLink to="/personal-website/projects">Projects & Publications</NavLink></span></p>
-    <p><span><NavLink to="/personal-website/contact">Contact</NavLink></span></p>
+    <p><span><NavLink to="/personal-website" onClick={ClickFeature}>
+      Home
+    </NavLink></span></p>
+
+    <p><span><NavLink to="/personal-website/achievements" onClick={ClickFeature}>
+      Achievements
+    </NavLink></span></p>
+
+    <p><span><NavLink to="/personal-website/skills" onClick={ClickFeature}>
+      Skills
+    </NavLink></span></p>
+
+    <p><span><NavLink to="/personal-website/experiences" onClick={ClickFeature}>
+      Experiences
+    </NavLink></span></p>
+
+    <p><span><NavLink to="/personal-website/projects" onClick={ClickFeature}>
+      Projects & Publications
+    </NavLink></span></p>
+    
+    <p><span><NavLink to="/personal-website/contact" onClick={ClickFeature}>
+      Contact
+    </NavLink></span></p>
   </>
 )
 
@@ -23,7 +44,7 @@ const Navbar = () => {
     <div className="charles__navbar">
       <div className="charles__navbar-links">
         <div className="charles__navbar-links_logo">
-          <NavLink to="/personal-website">
+          <NavLink to="/personal-website" onClick={ClickFeature}>
             <img src ={logo} alt="" />
           </NavLink>
         </div>

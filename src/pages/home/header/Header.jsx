@@ -1,24 +1,21 @@
 import React from 'react';
 import './header.css';
-import profile from '../../../assets/profile.png';
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="charles__header">
       <div className="charles__header-content">
-        <h1 className="gradient__text">
-          Welcome.
-        </h1>
+        <h2 className="gradient__text">
+          {props.title}
+        </h2>
 
         <p>
-          Charles Hsieh is a current undergraduate student studying at University of Toronto.
-          He is studying in the stream of Electrical and Computer Engineering and is open to both
-          the hardware and software development.
+          {props.description}
         </p>
       </div>
         
       <div className="charles__header-image">
-        <img src = {profile} alt = "Charles Hsieh"/>
+        <img src={props.image} alt={props.image_alt}/>
       </div>
     </div>
   )

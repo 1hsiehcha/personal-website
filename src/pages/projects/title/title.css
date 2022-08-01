@@ -1,26 +1,27 @@
 .charles__title {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .charles__title h1 {
-    font-family: var(--font-family);
-    font-size: var(--font-size__header);
-    line-height: var(--line-height__header);
-    font-weight: 800;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  font-family: var(--font-family);
+  font-size: var(--font-size__header);
+  line-height: var(--line-height__header);
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: min(5vw, 1rem);
 }
 
 .charles__title__text_box {
-    margin-top: min(0.1vw, 1rem);
-    margin-bottom: min(3vw, 3rem);
+  margin-top: min(0.1vw, 1rem);
+  margin-bottom: min(3vw, 3rem);
 }
 
 .charles__title__text_box h2 {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: var(--font-size__title);
-    line-height: var(--line-height__title);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: var(--font-size__title);
+  line-height: var(--line-height__title);
 }
