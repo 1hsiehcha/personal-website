@@ -11,10 +11,15 @@
   padding: min(5vw, 3rem) min(6vw, 6rem);
 }
 
+.charles__footer-logo {
+  line-height: min(10vw, 2rem);
+}
+
 .charles__footer img {
   width: min(35vw, 5.5rem);
   height: auto;
-  margin-bottom: min(2vw, 1rem);
+  margin-top: 0;
+  margin-bottom: min(5vw, 1rem);
 }
 
 .charles__footer h1 {
@@ -23,6 +28,7 @@
   font-weight: 500;
   font-size: var(--font-size__text);
   line-height: var(--line-height__text);
+  margin-bottom: min(5vw, 1rem);
 }
 
 .charles__footer img:hover {

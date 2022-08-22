@@ -1,8 +1,7 @@
 import React from 'react';
 import './skills.css';
-import { c, python, react, matLab, github, git, latex } from './imports.js';
+import { c, python, react, javascript, css, html, matLab, github, git, latex } from './imports.js';
 import { Footer } from '../../components';
-
 
 const SkillsList = () => {
   return (
@@ -23,6 +22,24 @@ const SkillsList = () => {
         title={"React"}
         image={react}
         image_alt={"React"}
+      />
+
+      <ImageSkillsContainer 
+        title={"JavaScript"}
+        image={javascript}
+        image_alt={"JavaScript"}
+      />
+
+      <ImageSkillsContainer 
+        title={"CSS"}
+        image={css}
+        image_alt={"CSS"}
+      />
+
+      <ImageSkillsContainer 
+        title={"HTML"}
+        image={html}
+        image_alt={"HTML"}
       />
 
       <ImageSkillsContainer 
@@ -74,11 +91,15 @@ const Skills = () => {
           <h1 className="gradient__text">Skills</h1>
           
           <p>
-            This page lists out all of the languages & tools that Charles had experienced 
-            using in his life.
+            This page lists out all of the languages and tools that Charles had experienced 
+            using in his life. To learn more about Charles' expertise amongst these tools, 
+            please feel free to contact him.
           </p>
         </div>
-        <SkillsList />
+
+        <div className="charles__skills__section">
+          <SkillsList />
+        </div>
       </div>
       <Footer />
     </>

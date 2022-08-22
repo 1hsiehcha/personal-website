@@ -5,10 +5,6 @@
   scroll-behavior: smooth;
 }
 
-body {
-  background: var(--color-bg);
-}
-
 a {
   color: unset;
   text-decoration: none;
@@ -39,10 +35,6 @@ a {
 }
 
 .section__padding {
-  padding: min(20vw, 5rem) min(10vw, 4.7rem);
-}
-
-.section__margin {
   padding: min(20vw, 5rem) min(10vw, 4.7rem);
 }
 

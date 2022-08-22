@@ -37,20 +37,21 @@
   padding: min(10vw, 5rem) min(10vw, 3.5rem);
 }
 
-.charles__experiences__container-odd_variation p, 
-.charles__experiences__container-even_variation p {
+.charles__experiences__container-format p,
+.charles__experiences__container-description p {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: var(--font-size__text);
-  margin-right: min(5vw, 0.8rem);
+  margin-right: 0;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .charles__experiences__container-format {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-bottom: min(5vw, 3rem);
+  margin-bottom: 0;
 }
 
 .charles__experiences__container-format h2 {
@@ -72,6 +73,48 @@
   font-size: var(--font-size__text);
   line-height: var(--line-height__text);
   margin-bottom: 0;
+}
+
+.charles__experiences__container-description {
+  display: flex;
+  flex-direction: column;
+  margin-top: min(5vw, 1rem);
+}
+
+.charles__experiences__container-description h5 {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.charles__experiences__container-description span {
+  cursor: pointer;
+  border-width: min(1vw, 0.2rem);
+  border-color:darkgoldenrod;
+  border-style: solid;
+  border-radius: 2%;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: var(--font-size__text);
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color:limegreen;
+  vertical-align: middle;
+}
+
+.charles__experiences__container-description span:hover {
+  background-color: darkgoldenrod;
+}
+
+.charles__experiences__container-description span p {
+  color: white;
+}
+
+.charles__experiences__container-description span p:hover {
+  color: white;
 }
 
 @media screen and (max-width: 780px) {

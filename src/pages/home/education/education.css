@@ -10,6 +10,8 @@
 }
 
 .charles__education__container-center_aligned {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -20,6 +22,7 @@
   max-block-size: min(35vw, 6rem);
   margin-bottom: min(5vw, 0.3rem);
   pointer-events: none;
+  margin-top: 0;
 }
 
 

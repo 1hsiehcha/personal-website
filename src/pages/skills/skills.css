@@ -28,7 +28,18 @@
   line-height: var(--line-height__title);
   color: black;
   margin-top: min(3vw, 0.5rem);
-  margin-bottom: min(5vw, 1rem);
+  margin-bottom: min(10vw, 2rem);
+}
+
+.charles__skills__section {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .charles__skills__container {
@@ -36,12 +47,14 @@
   margin-left: min(3vw, 2rem);
   margin-right: min(3vw, 2rem);
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .charles__skills__container img {
   width: min(25vw, 6rem);
-  margin-bottom: min(5vw, 3rem);
+  margin-bottom: min(8vw, 3rem);
   pointer-events: none;
+  margin-top: 0;
 }
 
 .charles__skills__container h1 {
@@ -51,5 +64,6 @@
   font-size: var(--font-size__title);
   line-height: var(--line-height__title);
   color: black;
+  margin-top: 0;
   margin-bottom: 0;
 }

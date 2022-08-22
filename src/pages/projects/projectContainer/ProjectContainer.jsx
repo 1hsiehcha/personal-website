@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './projectContainer.css';
 import Badge from 'react-bootstrap/Badge';
 import Carousel from 'react-bootstrap/Carousel';
@@ -32,6 +32,8 @@ const ProjectSlideshow = (props) => {
 }
 
 const ProjectContainer = (props) => {
+  const [click, updateClick] = useState(false);
+
   return (
     <>
       <ProjectSlideshow {...props}/>
@@ -53,18 +55,22 @@ const ProjectContainer = (props) => {
         
         <h2>
           Project Status:
-          <p><Badge bg={props.buttonColor}>{props.status}</Badge></p>
+          
+          {props.status.map((button, index) => (
+            <p><Badge bg={button.color} key={index}>{button.name}</Badge></p>
+          ))}
         </h2>
   
-        <h3>
-          Project Introduction:
-        </h3>
+        <div className='charles__common_project-description'>
+          <h3 onClick={() => updateClick(!click)}>
+            {click ? <span><p>Show Less</p></span> : <span><p>Click to Show More</p></span>}
+          </h3>
 
-        <h4>
-          {props.description}
-        </h4>
+          {click && (
+            <p>{props.description}</p>
+          )}
+        </div>
 
-      
         <h5>Link:
           {props.link === "N/A" ? (
             <h6>Unavailable</h6>

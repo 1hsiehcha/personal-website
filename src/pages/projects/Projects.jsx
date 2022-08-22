@@ -13,18 +13,54 @@ const ProjectsList = () => {
   return (
     <>
       <ProjectContainer
+        name={"Codelaboration"}
+        images={"N/A"}
+        type={"Personal Project"}
+        date={"Jul. 2022 - Aug. 2022"}
+        role={"Vice Head Web Developer"}
+        status={
+          [
+            {color: "primary", name: "Operating"},
+            {color: "danger", name: "No Updates"}
+          ]
+        }
+        description={
+        <>
+          Codelaboration is a platform designed to help developers find their project
+          of interest. Codelaboration brings the concept of job-searching websites to 
+          the programming community. It aims to be an active recruiting platform where 
+          founders post complicated projects that have insufficient members to turn their project
+          into reality. Then, the talented programmers can choose which the projects appeal 
+          to them and Codelaboration help assemble the team together.
+          <br /><br />
+          This platform is developed using React's framework and similar to the current website 
+          you are on, it is designed to be fully responsive. This project deepen Charles' 
+          understanding of React, JavaScript, CSS, and HTML. Since, this project is developed 
+          under a team environment, it allowed him to utilize Git/GitHub and sharpened his soft
+          skills of communication, collaboration, and organization. This enabled him to practice
+          frontend development.
+          <br />
+          The GitHub respiratory is unable for the time being due the request of the owner.
+          Contact Charles if you wish to learn more.
+        </>}
+        link={"https://codelaboration.netlify.app/"}
+        github={"N/A"}
+        horizontal_break={true}
+      />
+
+      <ProjectContainer
         name={"Personal Website"}
         images={"N/A"}
         type={"Personal Project"}
-        date={"Jun. 2022 - Jul. 2022"}
+        date={"Jun. 2022 - Aug. 2022"}
         role={"Individual Project"}
-        buttonColor={"primary"}
-        status={"Operating"}
+        status={[{color: "primary", name: "Operating"}]}
         description={
         <>
           The website you are currently on happens to be the final implementation of this project. 
           Charles developed this website using React's framework. By using React, JavaScript, and 
-          CSS, this  website is fully responsive and works on the most extreme dimensions. 
+          CSS, this  website is fully responsive and works on the most extreme dimensions (50px 
+          width, where most websites include big companies ones experience UI malfunctions). 
           By doing so, it allowed him to learn the basics of frontend development.
           <br /><br />
           Please note that this website can change overtime as the content may be updated or
@@ -50,8 +86,7 @@ const ProjectsList = () => {
         type={"Academic"}
         date={"Mar. 2022 - Apr. 2022"}
         role={"Individual Project"}
-        buttonColor={"success"}
-        status={"Completed"}
+        status={[{color: "success", name: "Completed"}]}
         description={
         <>
           The Reversi project is written in C and stems from two labs offered by APS105 at

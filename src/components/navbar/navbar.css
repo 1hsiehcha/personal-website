@@ -4,6 +4,12 @@
   justify-content: space-between;
   align-items: right;
   padding: min(7vw, 2rem) min(8vw, 5rem);
+  
+  position: sticky;
+  top: 0;
+  width: 100%;
+  overflow: visible;
+  z-index: 10;
 }
 
 .charles__navbar-links {
@@ -17,6 +23,7 @@
 .charles__navbar-links_logo {
   margin-right: min(10vw, 2rem);
   margin-bottom: 0;
+  line-height: min(10vw, 1rem);
 }
 
 .charles__navbar-links_logo img {
@@ -49,8 +56,8 @@
   margin-left: 0;
   display: none;
   position: relative;
-  vertical-align: middle;
   margin-bottom: 0;
+  line-height: min(10vw, 1rem);
 }
 
 .charles__navbar-menu img {

@@ -1,10 +1,15 @@
+# Charles Hsieh's Personal Website
 This project is designed by Charles Hsieh and serve as his personal website.
 All of the Rights belong to Charles Hsieh and may not be used, disseminated, 
 or shared without his written consent.
 
-Link of this project (subject to change): https://1hsiehcha.github.io/personal-website
+Furthermore, whenever the website is distributed upon Charles' consent, you
+MUST always include the full source code or a pointer to the full source code.
 
-# Getting Started with Create React App
+Link of this project (subject to change): https://1hsiehcha.github.io/personal-website
+Note that the contents of this website are subject to change.
+
+## React's Documentation:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,17 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './experiences.css';
 
-const Menu = (props) => (
-  <>
-    <div className="charles__experiences__container-format">
-      <h2>{props.name}</h2>
-      <h3>{props.type}</h3>
-      <h3>{props.date}</h3>
-      <h3>{props.position}</h3>
-    </div>
-    <p>{props.description}</p>
-  </>
-)
+const Menu = (props) => {
+  const [click, updateClick] = useState(false);
+
+  return (
+    <>
+      <div className="charles__experiences__container-format">
+        <h2>{props.name}</h2>
+        <h3>{props.type}</h3>
+        <h3>{props.date}</h3>
+        <h3>{props.position}</h3>
+      </div>
+
+      <div className='charles__experiences__container-description'>
+        <h5 onClick={() => updateClick(!click)}>
+          {click ? <span><p>Show Less</p></span> : <span><p>Click to Show More</p></span>}
+        </h5>
+
+        {click && (
+          <p>{props.description}</p>
+        )}
+      </div>
+    </>
+  )
+}
 
 const ExperiencesContainer = (props) => {
   return (
