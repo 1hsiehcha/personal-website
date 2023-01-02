@@ -10,7 +10,7 @@ a {
   text-decoration: none;
 }
 
-/* Credit: angry tools for creating this gradient coloration. */
+/* Credit: https://angrytools.com/gradient/. */
 .gradient__bg {
   background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
@@ -38,7 +38,7 @@ a {
   padding: min(20vw, 5rem) min(10vw, 4.7rem);
 }
 
-/* Credit: animista.net/play/basic/scale-up. */
+/* Credit: https://animista.net/play/basic/scale-up. */
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;

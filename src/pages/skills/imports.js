@@ -1,3 +1,4 @@
+import cpp from '../../assets/C++.png';
 import c from '../../assets/C.png';
 import python from '../../assets/python.png';
 import react from '../../assets/react.png';
@@ -10,6 +11,7 @@ import git from '../../assets/git.png';
 import latex from '../../assets/latex.png';
 
 export {
+  cpp,
   c,
   python,
   react,

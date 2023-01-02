@@ -1,11 +1,17 @@
 import React from 'react';
 import './skills.css';
-import { c, python, react, javascript, css, html, matLab, github, git, latex } from './imports.js';
+import { cpp, c, python, react, javascript, css, html, matLab, github, git, latex } from './imports.js';
 import { Footer } from '../../components';
 
 const SkillsList = () => {
   return (
     <>
+      <ImageSkillsContainer
+        title={"C++"}
+        image={cpp}
+        image_alt={"C++"}
+      />
+
       <ImageSkillsContainer 
         title={"C"}
         image={c}

@@ -2,11 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  margin-bottom: min(10vw, 2rem);
 }
 
 .charles__education__container {
   margin-top: min(5vw, 2rem);
-  margin-bottom: min(10vw, 2rem);
+  margin-bottom: 0;
 }
 
 .charles__education__container-center_aligned {
@@ -48,4 +49,56 @@
   font-size: var(--font-size__text);
   font-weight: 500;
   margin-bottom: 0;
+}
+
+.charles__education__button {
+  display: flex;
+  flex-direction: column;
+  margin-top: min(5vw, 1rem);
+}
+
+.charles__education__button h5 {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.charles__education__button h3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: var(--font-size__text);
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.charles__education__button span {
+  cursor: pointer;
+  border-width: min(1vw, 0.2rem);
+  border-color:darkgoldenrod;
+  border-style: solid;
+  border-radius: 2%;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: var(--font-size__title);
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color:limegreen;
+  vertical-align: middle;
+}
+
+.charles__education__button span:hover {
+  background-color: darkgoldenrod;
+}
+
+.charles__education__button span p {
+  color: white;
+  margin-bottom: 0;
+}
+
+.charles__education__button span p:hover {
+  color: white;
 }

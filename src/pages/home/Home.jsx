@@ -33,20 +33,22 @@ const EducationDescriptions = () => {
           <>
             Date: Sep. 2021 - Apr. 2026 (including PEY Co-op)
             <br />
-            Bachelor of Applied Science in Computer Engineering
+            Bachelor of Applied Science and Engineering (B.A.Sc.) in Computer Engineering
             <br />
-            Cumulative GPA: 3.67/4.00 - after first year
+            Cumulative GPA: 3.69/4.00 (after Fall 2022)
             <br />
-            Average Score: 83.5% - after first year
+            Average Score: 84.7% (after Fall 2022)
             <br />
-            Minor: N/A
+            Pursuing AI minor
             <br /> <br />
             Charles was first admitted to University of Toronto through the stream of 
             TrackOne, Undeclared Engineering. After finishing first year, he transferred 
             into the stream of Electrical & Computer Engineering (ECE) to continue his 
-            degree.
+            degree. He is planning to graduate as a computer engineer (CE) and is pursuing 
+            an AI minor.
           </>
         }
+        button={"N/A"}
       />
 
       <Education 
@@ -65,9 +67,11 @@ const EducationDescriptions = () => {
             <br /><br />
             After Charles completing his diploma, he had taken a series of 
             AP and Pre-AP courses. These courses are listed below:
-            <br /><br />
-
-            Grade 12 (AP): 
+          </>
+        }
+        button={
+          <>
+              Grade 12 (AP): 
               <br />Calculus & Vectors (MCV4UA)
               <br />Advanced Functions (MHF4UA)
               <br />Chemistry (SCH4UA)

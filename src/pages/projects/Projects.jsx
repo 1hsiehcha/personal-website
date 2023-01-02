@@ -4,7 +4,7 @@ import { Title } from './title';
 import { ProjectContainer } from './projectContainer';
 import { Footer } from '../../components';
 
-/* Import Images */
+/* Import Images. */
 import { 
   reversiOne, reversiTwo, reversiThree, reversiFour, reversiFive, reversiSix 
 } from './imports.js';
@@ -39,12 +39,9 @@ const ProjectsList = () => {
           under a team environment, it allowed him to utilize Git/GitHub and sharpened his soft
           skills of communication, collaboration, and organization. This enabled him to practice
           frontend development.
-          <br />
-          The GitHub respiratory is unable for the time being due the request of the owner.
-          Contact Charles if you wish to learn more.
         </>}
-        link={"https://codelaboration.netlify.app/"}
-        github={"N/A"}
+        link={"https://1hsiehcha.github.io/Codelaboration"}
+        github={"https://github.com/1hsiehcha/Codelaboration"}
         horizontal_break={true}
       />
 
@@ -60,7 +57,7 @@ const ProjectsList = () => {
           The website you are currently on happens to be the final implementation of this project. 
           Charles developed this website using React's framework. By using React, JavaScript, and 
           CSS, this  website is fully responsive and works on the most extreme dimensions (50px 
-          width, where most websites include big companies ones experience UI malfunctions). 
+          to 9999px), where most websites including famous websites experience UI malfunctions. 
           By doing so, it allowed him to learn the basics of frontend development.
           <br /><br />
           Please note that this website can change overtime as the content may be updated or
@@ -91,7 +88,7 @@ const ProjectsList = () => {
         <>
           The Reversi project is written in C and stems from two labs offered by APS105 at
           the University of Toronto. The first lab is about creating the setup of the board, 
-          identifying all  legal moves on the board, and executing the valid moves as they are
+          identifying all legal moves on the board, and executing the valid moves as they are
           entered in by the user. The second lab (the harder lab) is more or less about creating
           an intelligent AI to play the game. The goal of this AI is to be able to make good moves
           to beat the AIs created by the APS105 teaching team (APS105 smarter & APS105 smartest)
@@ -100,14 +97,14 @@ const ProjectsList = () => {
           Charles' AI was able to beat APS105 smarter & APS105 smartest on both colors. The logic 
           behind his code is about creating a complex scoring system to evaluate all legal moves. 
           The scoring system utilize common Reversi strategies which includes gaining corners,
-          edges, limiting the opponent's move, and seeing if the opponent has a move that can turn 
-          the game in their favour as a result of proposed move. Taking these factors into
-          consideration, it generates a score of each legal move and the one with the best score 
-          is executed.
+          gaining edges, limiting the opponent's move, and seeing if the opponent has a move that 
+          can turn the game in their favour as a result of proposed move. Taking these factors 
+          into consideration, it generates a score of each legal move and the one with the best 
+          score is executed.
           <br /><br />
-          Based on special permission of the APS105 course coordinator, Charles can only share some
-          of the moves between his AI and APS105's AI but not the full game. Also, his source code 
-          cannot be shared due to academic integrity.
+          Based on special permission of the APS105 course coordinator (Professor Baochun Li), 
+          Charles can only share a fraction of the game between his and APS105's AI but not the 
+          full game. Also, his source code cannot be shared due to academic integrity.
         </>}
         link={"N/A"}
         github={"N/A"}

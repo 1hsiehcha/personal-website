@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const LastUpdatedOn = () => {
   return (
     <>
-      Aug. 22nd, 2022.
+      Jan. 2nd, 2023.
     </>
   )
 }
@@ -23,7 +23,7 @@ const Footer = () => {
       <h1>
         Last updated on <LastUpdatedOn />
         <br />
-        Copyright © 2022 - 2022 Charles Hsieh - All Rights Reserved.
+        Copyright © 2022 - 2023 Charles Hsieh - All Rights Reserved.
       </h1>
     </div>
   )
