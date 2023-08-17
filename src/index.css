@@ -21,6 +21,8 @@
   --font-size__text: min(3.5vw, 1rem);
   --line-height__text: normal;
 
+  --table-border: min(0.1vw, 0.1rem);
+
   --gradient-text: linear-gradient(90deg, rgba(46, 104, 41, 1) 0%, rgba(115, 162, 5, 1) 100%);
   --gradient-bar: linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './skills.css';
-import { cpp, c, python, react, javascript, css, html, matLab, github, git, latex } from './imports.js';
+import { cpp, c, python, react, javascript, css, html, matLab, github, git, latex, verilog, arm, quartus, gtk, vscode, LTSpice, multisim, logisim, valgrind, glade, modelsim} from './imports.js';
 import { Footer } from '../../components';
 
 const SkillsList = () => {
@@ -16,12 +16,6 @@ const SkillsList = () => {
         title={"C"}
         image={c}
         image_alt={"C"}
-      />
-
-      <ImageSkillsContainer 
-        title={"Python"}
-        image={python}
-        image_alt={"Python"}
       />
       
       <ImageSkillsContainer 
@@ -64,6 +58,78 @@ const SkillsList = () => {
         title={"Git"}
         image={git}
         image_alt={"Git"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Valgrind"}
+        image={valgrind}
+        image_alt={"Valgrind"}
+      />
+
+      <ImageSkillsContainer 
+        title={"GTK"}
+        image={gtk}
+        image_alt={"GTK"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Glade Graphical Interface"}
+        image={glade}
+        image_alt={"Glade Graphical Interface"}
+      />
+
+      <ImageSkillsContainer 
+        title={"ARM Assembly"}
+        image={arm}
+        image_alt={"ARM assembly programming"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Python"}
+        image={python}
+        image_alt={"Python"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Verilog"}
+        image={verilog}
+        image_alt={"Verilog"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Intel® Quartus Prime"}
+        image={quartus}
+        image_alt={"Intel® Quartus Prime"}
+      />
+
+      <ImageSkillsContainer 
+        title={"ModelSim"}
+        image={modelsim}
+        image_alt={"ModelSim"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Logisim"}
+        image={logisim}
+        image_alt={"Logisim"}
+      />
+
+      <ImageSkillsContainer 
+        title={"NI MultiSim"}
+        image={multisim}
+        image_alt={"NI MultiSim"}
+      />
+
+      <ImageSkillsContainer 
+        title={"LTSpice"}
+        image={LTSpice}
+        image_alt={"LTSpice"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Vscode"}
+        image={vscode}
+        image_alt={"Vscode"}
       />
 
       <ImageSkillsContainer 

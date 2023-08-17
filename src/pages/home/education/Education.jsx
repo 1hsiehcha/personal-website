@@ -28,7 +28,123 @@ const Education = (props) => {
           )}
         </div>
       )}
-    </div>
+
+      {props.table1 !== "N/A" && (
+        <div className='charles__education__table-container'>
+          {props.table1.map((entry, index) => (
+            <h2>
+              {entry.title}
+            </h2>
+          ))}
+
+          <table className='charles__education__table-format'>
+            <thead>
+              {props.table1.map((entry, index) => (
+                <tr>
+                  <th><p>{entry.headerOne}</p></th>
+                  <th><p>{entry.headerTwo}</p></th>
+                </tr>
+              ))}
+            </thead>
+
+            <tbody>
+              {props.table1.map((entry, index) => (
+                <tr>
+                  <td>{entry.first}</td>
+                  <td>{entry.second}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      {props.table2 !== "N/A" && (
+        <div className='charles__education__table-container'>
+          {props.table2.map((entry, index) => (
+            <h2>
+              {entry.title}
+            </h2>
+          ))}
+
+          <table className='charles__education__table-format'>
+            <thead>
+              {props.table2.map((entry, index) => (
+                <tr>
+                  <th><p>{entry.headerOne}</p></th>
+                  <th><p>{entry.headerTwo}</p></th>
+                </tr>
+              ))}
+            </thead>
+
+            <tbody>
+              {props.table2.map((entry, index) => (
+                <tr>
+                  <td>{entry.first}</td>
+                  <td>{entry.second}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      {props.table3 !== "N/A" && (
+        <div className='charles__education__table-container'>
+          {props.table3.map((entry, index) => (
+            <h2>
+              {entry.title}
+            </h2>
+          ))}
+
+          <table className='charles__education__table-format'>
+            <thead>
+              {props.table3.map((entry, index) => (
+                <tr>
+                  <th><p>{entry.header}</p></th>
+                </tr>
+              ))}
+            </thead>
+
+            <tbody>
+              {props.table3.map((entry, index) => (
+                <tr>
+                  <td>{entry.first}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      {props.table4 !== "N/A" && (
+        <div>
+          <table>
+            <thead>
+              {props.table4.map((entry, index) => (
+                <tr>
+                  <th>{entry.headerOne}</th>
+                  <th>{entry.headerTwo}</th>
+                </tr>
+              ))}
+            </thead>
+
+            <tbody>
+              {props.table4.map((entry, index) => (
+                <tr>
+                  <td>
+                    {entry.first}
+                  </td>
+                  <td>
+                    {entry.second}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>    
   )
 }
 

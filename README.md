@@ -1,5 +1,5 @@
 # Charles Hsieh's Personal Website
-This project is designed by Charles Hsieh and is used for his personal website.
+This project is designed by Charles Hsieh and is used as his personal website.
 All rights belong to Charles Hsieh and may not be used, disseminated, or shared 
 without his written consent.
 
@@ -7,11 +7,11 @@ Furthermore, whenever this website is distributed upon Charles' consent, you
 MUST always include the full source code or a pointer to the full source code.
 
 ## Link:
-https://1hsiehcha.github.io/personal-website
+https://1hsiehcha.github.io/personal-website \
 Note that the link and contents of this website are subject to change.
 
 ## Technologies:
-Credit goes out to GitHub pages for deploying this website.
+Credit goes out to GitHub pages for deploying this website. \
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 

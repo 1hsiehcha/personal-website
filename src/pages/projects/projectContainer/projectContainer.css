@@ -14,11 +14,27 @@
   margin-bottom: min(2vw, 0.2rem);
 }
 
-.charles__slideshow-container {
+.portrait {
   border-color: black;
   border-width: min(3vw, 0.5rem);
   border-style: solid;
-  width: min(80vw, 20rem);
+  width: min(80vw, 22rem);
+  height: auto;
+}
+
+.landscape {
+  border-color: black;
+  border-width: min(3vw, 0.5rem);
+  border-style: solid;
+  width: min(100vw, 55rem);
+  height: auto;
+}
+
+.square {
+  border-color: black;
+  border-width: min(3vw, 0.5rem);
+  border-style: solid;
+  width: min(80vw, 30rem);
   height: auto;
 }
 

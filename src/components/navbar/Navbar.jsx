@@ -19,16 +19,16 @@ const Menu = () => (
       Achievements
     </NavLink></span></p>
 
+    <p><span><NavLink to="/personal-website/projects" onClick={ClickFeature}>
+      Projects & Publications
+    </NavLink></span></p>
+
     <p><span><NavLink to="/personal-website/skills" onClick={ClickFeature}>
       Skills
     </NavLink></span></p>
 
     <p><span><NavLink to="/personal-website/experiences" onClick={ClickFeature}>
       Experiences
-    </NavLink></span></p>
-
-    <p><span><NavLink to="/personal-website/projects" onClick={ClickFeature}>
-      Projects & Publications
     </NavLink></span></p>
     
     <p><span><NavLink to="/personal-website/contact" onClick={ClickFeature}>

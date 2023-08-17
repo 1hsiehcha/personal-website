@@ -11,7 +11,7 @@ const ProjectSlideshow = (props) => {
       </h1>
 
       {props.images !== "N/A" && (
-        <div className="charles__slideshow-container">
+        <div className={props.imageOrientation}>
           <Carousel variant="dark">
             {props.images.map((image, index) => (
                 <Carousel.Item key={index}>
@@ -52,6 +52,12 @@ const ProjectContainer = (props) => {
           Role:
           <p>{props.role}</p>
         </h2>
+
+        <h2>
+          Technologies Used:
+          <p>{props.tool}</p>
+        </h2>
+
         
         <h2>
           Project Status:
@@ -71,15 +77,14 @@ const ProjectContainer = (props) => {
           )}
         </div>
 
-        <h5>Link:
-          {props.link === "N/A" ? (
-            <h6>Unavailable</h6>
-          ) : (
+        
+        {props.link !== "N/A" && 
+          <h5>Link:
             <a href={props.link}>
               Click Here
             </a>
-          )}
-        </h5>
+          </h5>
+        }
     
         <h5>GitHub:
           {props.github === "N/A" ? (
@@ -90,6 +95,14 @@ const ProjectContainer = (props) => {
             </a>
           )}
         </h5>
+
+        {props.demo !== "N/A" && 
+          <h5>Demo Video:
+            <a href={props.demo}>
+              Click Here
+            </a>
+          </h5>
+        }
         
         {props.horizontal_break && (
           <hr />

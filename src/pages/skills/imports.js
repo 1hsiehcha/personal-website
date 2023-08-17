@@ -9,6 +9,17 @@ import matLab from '../../assets/matlab.png';
 import github from '../../assets/github_logo_2.png';
 import git from '../../assets/git.png';
 import latex from '../../assets/latex.png';
+import verilog from '../../assets/verilog.png';
+import arm from '../../assets/ARM.png';
+import quartus from '../../assets/quartus.png';
+import gtk from '../../assets/GTK.png';
+import vscode from '../../assets/vscode.png';
+import LTSpice from '../../assets/LTSpice.jpg';
+import multisim from '../../assets/multisim.png';
+import logisim from '../../assets/logisim.png';
+import valgrind from '../../assets/valgrind.png';
+import glade from '../../assets/glade.png';
+import modelsim from '../../assets/modelsim.jpg';
 
 export {
   cpp,
@@ -22,4 +33,15 @@ export {
   github,
   git,
   latex,
+  verilog,
+  arm,
+  quartus,
+  gtk,
+  vscode,
+  LTSpice,
+  multisim,
+  logisim,
+  valgrind,
+  glade,
+  modelsim
 }
