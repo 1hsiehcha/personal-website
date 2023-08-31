@@ -6,6 +6,9 @@ without his written consent.
 Furthermore, whenever this website is distributed upon Charles' consent, you
 MUST always include the full source code or a pointer to the full source code.
 
+Also, this code is without warranty and is not responsible for any cause of 
+damage. It is simply created to broadcast Charles' portfolio.
+
 ## Link:
 https://1hsiehcha.github.io/personal-website \
 Note that the link and contents of this website are subject to change.
