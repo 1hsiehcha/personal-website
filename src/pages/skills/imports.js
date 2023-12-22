@@ -20,6 +20,10 @@ import logisim from '../../assets/logisim.png';
 import valgrind from '../../assets/valgrind.png';
 import glade from '../../assets/glade.png';
 import modelsim from '../../assets/modelsim.jpg';
+import Linux from '../../assets/Linux.png';
+import OpenMP from '../../assets/OpenMP.png';
+import GitLab from '../../assets/gitlab.png';
+import Sentaurus from '../../assets/sentaurus.png';
 
 export {
   cpp,
@@ -43,5 +47,9 @@ export {
   logisim,
   valgrind,
   glade,
-  modelsim
+  modelsim,
+  Linux,
+  OpenMP,
+  GitLab,
+  Sentaurus
 }

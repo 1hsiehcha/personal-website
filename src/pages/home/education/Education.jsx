@@ -29,9 +29,9 @@ const Education = (props) => {
         </div>
       )}
 
-      {props.table1 !== "N/A" && (
+      {props.table3 !== "N/A" && (
         <div className='charles__education__table-container'>
-          {props.table1.map((entry, index) => (
+          {props.table3.map((entry, index) => (
             <h2>
               {entry.title}
             </h2>
@@ -39,7 +39,7 @@ const Education = (props) => {
 
           <table className='charles__education__table-format'>
             <thead>
-              {props.table1.map((entry, index) => (
+              {props.table3.map((entry, index) => (
                 <tr>
                   <th><p>{entry.headerOne}</p></th>
                   <th><p>{entry.headerTwo}</p></th>
@@ -48,7 +48,7 @@ const Education = (props) => {
             </thead>
 
             <tbody>
-              {props.table1.map((entry, index) => (
+              {props.table3.map((entry, index) => (
                 <tr>
                   <td>{entry.first}</td>
                   <td>{entry.second}</td>
@@ -89,9 +89,9 @@ const Education = (props) => {
         </div>
       )}
 
-      {props.table3 !== "N/A" && (
+      {props.table1 !== "N/A" && (
         <div className='charles__education__table-container'>
-          {props.table3.map((entry, index) => (
+          {props.table1.map((entry, index) => (
             <h2>
               {entry.title}
             </h2>
@@ -99,17 +99,19 @@ const Education = (props) => {
 
           <table className='charles__education__table-format'>
             <thead>
-              {props.table3.map((entry, index) => (
+              {props.table1.map((entry, index) => (
                 <tr>
-                  <th><p>{entry.header}</p></th>
+                  <th><p>{entry.headerOne}</p></th>
+                  <th><p>{entry.headerTwo}</p></th>
                 </tr>
               ))}
             </thead>
 
             <tbody>
-              {props.table3.map((entry, index) => (
+              {props.table1.map((entry, index) => (
                 <tr>
                   <td>{entry.first}</td>
+                  <td>{entry.second}</td>
                 </tr>
               ))}
             </tbody>

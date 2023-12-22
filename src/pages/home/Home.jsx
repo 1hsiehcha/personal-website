@@ -3,21 +3,21 @@ import { Header } from './header';
 import { Education } from './education';
 import { Footer } from '../../components';
 import './home.css';
-import { profile, ut, ht } from './imports.js';
+import { ut, ht } from './imports.js';
 
 const PageTitle = () => {
   return(
     <Header 
-      title={"Welcome."}
+      title={"Welcome!"}
       description={
         <>
           Charles Hsieh is a current undergraduate student studying at University of Toronto.
           He is studying in the stream of Electrical and Computer Engineering and is open to both
-          hardware and software development.
+          hardware and software development. Through the experiences he has gained, he has
+          exposure to areas of software development, computer networks, hardware, and 
+          web development. He is currently pursuing an AI minor as well.
         </>
       }
-      image={profile}
-      image_alt={"Charles Hsieh"}
     />
   )
 }
@@ -44,9 +44,9 @@ const EducationDescriptions = () => {
             Charles was first admitted to University of Toronto through the stream of 
             TrackOne, Undeclared Engineering. After finishing first year, he transferred 
             into the stream of Electrical & Computer Engineering (ECE) to continue his 
-            degree. He is planning to graduate as a Computer Engineer (CE) and is pursuing 
-            an AI minor. The following tables consists of all the courses that he has 
-            completed.
+            degree. He is planning to graduate as a Computer Engineer (CE) and is currently
+            pursuing an AI minor. The following tables consists of all the courses that he 
+            has completed.
           </>
         }
         button={"N/A"}
@@ -77,9 +77,12 @@ const EducationDescriptions = () => {
         table3={
           [
             {title: "Third Year"},
-            {header: "Summer 2023"},
-            {first: "JRE420H1 People Management & Organizational Behaviour"},
-            {first: "TEP444H1 Positive Psychology for Engineers"}
+            {headerOne: "Fall 2023", headerTwo: "Summer 2023"},
+            {first: "ECE302H1 Probability & Applications", second: "JRE420H1 People Management & Organizational Behaviour"},
+            {first: "ECE335H1 Introduction to Electronic Devices", second: "TEP444H1 Positive Psychology for Engineers"},
+            {first: "ECE344H1 Operating Systems"},
+            {first: "ECE345H1 Algorithms & Data Structures"},
+            {first: "ECE361H1 Computer Networks I"}
           ]
         }
         table4={"N/A"}

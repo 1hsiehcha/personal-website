@@ -13,10 +13,6 @@ const Header = (props) => {
           {props.description}
         </p>
       </div>
-        
-      <div className="charles__header-image">
-        <img src={props.image} alt={props.image_alt}/>
-      </div>
     </div>
   )
 }

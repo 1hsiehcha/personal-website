@@ -7,32 +7,6 @@ const ExperiencesList = () => {
   return (
     <>
       <ExperiencesContainer 
-        background={false}
-        name={
-          <>
-            Toward More Effective Teaching and Learning in Engineering Education
-          </>
-        }
-        type={"Type: Academic"}
-        date={"Date: Jul. 2022"}
-        position={"Position: Focus Group Participant"}
-        description={
-          <>
-            This is a research project conducted by University of Toronto and is led by
-            "Institute for Studies in Transdisciplinary Engineering Education and 
-            Practice" (ISTEP). This research study is intended to look at the learning
-            effectiveness of different types of instruction that been presented as a result
-            of the COVID-19 pandemic. The types of instruction include in-person, online 
-            synchronous, and asynchronous learning. Dr. Qin Liu has talked with Charles 
-            about ways to boost learning efficiency and tailoring the ideal blend
-            of instruction for future courses. By taking the unique advantages of each 
-            type of instruction, the project hopes to take another step into perfecting
-            Engineering education. 
-          </>
-        }
-      />
-
-      <ExperiencesContainer 
         background={true}
         name={"Engineering Strategies & Practice I & II"}
         type={"Type: Academic"}
@@ -64,6 +38,32 @@ const ExperiencesList = () => {
             physical experiments, the design proved to have a high heat resistance while being 
             relatively cheap. It required no maintenance and the process (production, construction,
             and implementation) yields a low carbon footprint.
+          </>
+        }
+      />
+
+      {/* <ExperiencesContainer 
+        background={false}
+        name={
+          <>
+            Toward More Effective Teaching and Learning in Engineering Education
+          </>
+        }
+        type={"Type: Academic"}
+        date={"Date: Jul. 2022"}
+        position={"Position: Focus Group Participant"}
+        description={
+          <>
+            This is a research project conducted by University of Toronto and is led by
+            "Institute for Studies in Transdisciplinary Engineering Education and 
+            Practice" (ISTEP). This research study is intended to look at the learning
+            effectiveness of different types of instruction that been presented as a result
+            of the COVID-19 pandemic. The types of instruction include in-person, online 
+            synchronous, and asynchronous learning. Dr. Qin Liu has talked with Charles 
+            about ways to boost learning efficiency and tailoring the ideal blend
+            of instruction for future courses. By taking the unique advantages of each 
+            type of instruction, the project hopes to take another step into perfecting
+            Engineering education. 
           </>
         }
       />
@@ -176,7 +176,7 @@ const ExperiencesList = () => {
             Charles needed accuracy, precision, and accountability to be reflected in his work. 
           </>
         }
-      />
+      /> */}
     </>
   )
 }

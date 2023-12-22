@@ -1,6 +1,6 @@
 import React from 'react';
 import './skills.css';
-import { cpp, c, python, react, javascript, css, html, matLab, github, git, latex, verilog, arm, quartus, gtk, vscode, LTSpice, multisim, logisim, valgrind, glade, modelsim} from './imports.js';
+import { cpp, c, python, react, javascript, css, html, matLab, github, git, latex, verilog, arm, quartus, gtk, vscode, LTSpice, multisim, logisim, valgrind, glade, modelsim, Linux, OpenMP, GitLab, Sentaurus} from './imports.js';
 import { Footer } from '../../components';
 
 const SkillsList = () => {
@@ -17,11 +17,17 @@ const SkillsList = () => {
         image={c}
         image_alt={"C"}
       />
+
+      <ImageSkillsContainer 
+        title={"Linux"}
+        image={Linux}
+        image_alt={"Linux"}
+      />
       
       <ImageSkillsContainer 
-        title={"React"}
+        title={"React.js"}
         image={react}
-        image_alt={"React"}
+        image_alt={"React.js"}
       />
 
       <ImageSkillsContainer 
@@ -61,9 +67,21 @@ const SkillsList = () => {
       />
 
       <ImageSkillsContainer 
+        title={"GitLab"}
+        image={GitLab}
+        image_alt={"GitLab"}
+      />
+
+      <ImageSkillsContainer 
         title={"Valgrind"}
         image={valgrind}
         image_alt={"Valgrind"}
+      />
+
+      <ImageSkillsContainer 
+        title={"OpenMP"}
+        image={OpenMP}
+        image_alt={"OpenMP"}
       />
 
       <ImageSkillsContainer 
@@ -106,6 +124,12 @@ const SkillsList = () => {
         title={"ModelSim"}
         image={modelsim}
         image_alt={"ModelSim"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Sentaurus"}
+        image={Sentaurus}
+        image_alt={"Sentaurus"}
       />
 
       <ImageSkillsContainer 

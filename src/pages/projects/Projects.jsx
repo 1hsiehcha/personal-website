@@ -17,6 +17,84 @@ const ProjectsList = () => {
   return (
     <>
       <ProjectContainer
+        name={"Multi-Party Text Conferencing Application"}
+        images={"N/A"}
+        imageOrientation={"N/A"}
+        length={500}
+        type={"Lab (Academia)"}
+        date={"Nov. 2023 - Dec. 2023"}
+        role={"Main Developer"}
+        tool={"C, Socket Programming (TCP), Unix, Makefile."}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          This lab was done for ECE361: Computer Networks I. As by the name, it is a command-line app 
+          that facilitates and manages group chats. Multiple clients, aka users, are able to connect 
+          to the server which allows them to join, create, or leave any group chats at their own 
+          will. The server program supports the login of existing users as well as the registration 
+          of new members by storing their data in a file and retrieving it upon startup. The server 
+          also offers a "/list" feature that prints out all active users and sessions which is 
+          updated automatically. Furthermore, both the server and client code is equipped with 
+          advanced logic and error-checking features to handle invalid user input, logic, or commands.
+          <br /><br />
+          To create this application, Charles used TCP sockets in C to create reliable connections
+          between the server and the clients. To manage all the users, Charles used the TAILQ 
+          in Linux to dynamically manage every user and their status. In addition, UNIX 
+          system calls were used alongside C functions to be able to extract data from a file 
+          allowing their data be stored persistently. As a result, Charles' group earned 100% on this lab and 
+          completed it one week ahead of the due date!
+          <br /><br />
+          Due to academic integrity, the source code of this lab cannot be shared whatsoever.
+          Please feel free to watch the demo video or reach out!
+        </>}
+        link={"N/A"}
+        github={"N/A"}
+        demo={"https://youtu.be/1SSF047cScE"}
+        horizontal_break={true}
+      />
+
+      <ProjectContainer
+        name={"File Transfer Application"}
+        images={"N/A"}
+        imageOrientation={"landscape"}
+        length={500}
+        type={"Lab (Academia)"}
+        date={"Sept. 2023 - Oct. 2023"}
+        role={"Main Developer"}
+        tool={"C, Socket Programming (UDP), UNIX, Makefile."}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          This lab was done for ECE361: Computer Networks I. This program is designed to transfer
+          files remotely across two different machines. This program supports files of any type
+          and can be of any size. This is because the files are transferred in binary instead of 
+          plain text.
+          <br /><br />
+          To create this application, Charles used UDP sockets in C. Since UDP is connectionless,
+          Charles had to implement an ARQ to deal with packet drops and re-transmissions. 
+          Furthermore, to support transmissions of large files the program automatically fragments
+          the file into smaller pieces to improve reliability when sending it across the network. 
+          It is also immune to invalid inputs such as entering non-existing files or invalid 
+          commands.
+          <br /><br />
+          Due to academic integrity, the source code of this project cannot be shared whatsoever.
+          Please feel free to watch the demo video or reach out!
+        </>}
+        link={"N/A"}
+        github={"N/A"}
+        demo={"https://youtu.be/hQ16V4zkmiE"}
+        horizontal_break={true}
+      />
+
+      <ProjectContainer
         name={"GIS Mapper"}
         images={
           [
@@ -35,7 +113,7 @@ const ProjectsList = () => {
         type={"Coursed-Based Project"}
         date={"Jan. 2023 - Apr. 2023"}
         role={"Coding Lead"}
-        tool={"C++, GTK, Glade, EZGL, Git, UnitTest++, & OSM Database."}
+        tool={"C++, GTK, Glade, EZGL, Git, UnitTest++, OSM Database."}
         status={
           [
             {color: "success", name: "Completed"}
@@ -158,7 +236,7 @@ const ProjectsList = () => {
         type={"Lab (Academia)"}
         date={"March 2023"}
         role={"Main Developer"}
-        tool={"Verilog, Assembly, ModelSim, DESim, & Intel® Quartus Prime"}
+        tool={"Verilog, Assembly, ModelSim, DESim, Intel® Quartus Prime"}
         status={
           [
             {color: "success", name: "Completed"}
@@ -196,7 +274,7 @@ const ProjectsList = () => {
         type={"Personal Project"}
         date={"Jul. 2022 - Aug. 2022"}
         role={"Vice Head Web Developer"}
-        tool={"React, Javascript, HTML, & CSS"}
+        tool={"React, Javascript, HTML, CSS"}
         status={
           [
             {color: "primary", name: "Operating"},
@@ -231,16 +309,15 @@ const ProjectsList = () => {
         type={"Personal Project"}
         date={"Jun. 2022 - Aug. 2022"}
         role={"Individual Project"}
-        tool={"React, Javascript, HTML, & CSS"}
+        tool={"React, Javascript, HTML, CSS"}
         status={[{color: "primary", name: "Operating"}]}
         description={
         <>
           The website you are currently on happens to be the final implementation of this project. 
           Charles developed this website using React's framework. By using React, JavaScript, and 
-          CSS, this website is fully responsive and works on the most extreme dimensions (50px 
-          to 9999px). These dimensions are so extreme that most websites including popular ones
-          experience UI malfunctions. By doing so, it allowed him to learn the basics of frontend 
-          development.
+          CSS, this website is fully responsive and works on the most extreme dimensions. These 
+          dimensions are so extreme that most websites including popular ones experience UI 
+          malfunctions. By doing so, it allowed him to learn the basics of frontend development.
           <br /><br />
           Please note that this website can change overtime as the content may be updated or
           revised.
@@ -317,7 +394,7 @@ const ProjectsList = () => {
         type={"Culminating Project"}
         date={"Dec. 2019 - Jan. 2020"}
         role={"Individual Project"}
-        tool={"Python & PyGame"}
+        tool={"Python, PyGame"}
         status={
           [
             {color: "success", name: "Completed"}
@@ -373,7 +450,7 @@ const Projects = () => {
     <>
       <div className="charles__projects section__padding">
         <Title 
-          header={"Projects & Publications"}
+          header={"Projects"}
           introduction={
             <>
               This page lists out the representative projects that Charles has worked
