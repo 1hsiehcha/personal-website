@@ -24,6 +24,7 @@ import Linux from '../../assets/Linux.png';
 import OpenMP from '../../assets/OpenMP.png';
 import GitLab from '../../assets/gitlab.png';
 import Sentaurus from '../../assets/sentaurus.png';
+import Wireshark from '../../assets/Wireshark.png';
 
 export {
   cpp,
@@ -51,5 +52,6 @@ export {
   Linux,
   OpenMP,
   GitLab,
-  Sentaurus
+  Sentaurus,
+  Wireshark
 }

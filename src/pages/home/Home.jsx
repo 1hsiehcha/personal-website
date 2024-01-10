@@ -35,9 +35,9 @@ const EducationDescriptions = () => {
             <br />
             Bachelor of Applied Science and Engineering (B.A.Sc.) in Computer Engineering
             <br />
-            Cumulative GPA: 3.79/4.00 (after Summer 2023)
+            Cumulative GPA: 3.82/4.00 (after Fall 2023)
             <br />
-            Average Score: 86.3% (after Summer 2023)
+            Average Score: 87.26% (after Fall 2023)
             <br />
             Pursuing AI minor
             <br /> <br />

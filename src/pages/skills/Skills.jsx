@@ -1,6 +1,6 @@
 import React from 'react';
 import './skills.css';
-import { cpp, c, python, react, javascript, css, html, matLab, github, git, latex, verilog, arm, quartus, gtk, vscode, LTSpice, multisim, logisim, valgrind, glade, modelsim, Linux, OpenMP, GitLab, Sentaurus} from './imports.js';
+import { cpp, c, python, react, javascript, css, html, matLab, github, git, latex, verilog, arm, quartus, gtk, vscode, LTSpice, multisim, logisim, valgrind, glade, modelsim, Linux, OpenMP, GitLab, Sentaurus, Wireshark} from './imports.js';
 import { Footer } from '../../components';
 
 const SkillsList = () => {
@@ -148,6 +148,12 @@ const SkillsList = () => {
         title={"LTSpice"}
         image={LTSpice}
         image_alt={"LTSpice"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Wireshark"}
+        image={Wireshark}
+        image_alt={"Wireshark"}
       />
 
       <ImageSkillsContainer 

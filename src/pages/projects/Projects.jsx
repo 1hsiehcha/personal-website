@@ -83,7 +83,8 @@ const ProjectsList = () => {
           Furthermore, to support transmissions of large files the program automatically fragments
           the file into smaller pieces to improve reliability when sending it across the network. 
           It is also immune to invalid inputs such as entering non-existing files or invalid 
-          commands.
+          commands. Charles' group earned 100% on this lab and completed the last section one week 
+          before the deadline!
           <br /><br />
           Due to academic integrity, the source code of this project cannot be shared whatsoever.
           Please feel free to watch the demo video or reach out!
@@ -110,7 +111,7 @@ const ProjectsList = () => {
         }
         imageOrientation={"landscape"}
         length={500}
-        type={"Coursed-Based Project"}
+        type={"Design Project"}
         date={"Jan. 2023 - Apr. 2023"}
         role={"Coding Lead"}
         tool={"C++, GTK, Glade, EZGL, Git, UnitTest++, OSM Database."}
@@ -202,7 +203,7 @@ const ProjectsList = () => {
           <br /><br />
           To accomplish this, our team used the C programming language to develop this code. Since
           C does not offer STL containers, Charles had to write a set of functions similar to vectors to
-          dynamically grow and shrink the apples array in runtime. This involves using pointers, 
+          dynamically grow and shrink the apples array during runtime. This involves using pointers, 
           deep copying, and malloc-ing. In addition, Charles' team used double buffering to ensure 
           that the animation is smooth. But this added additional complexity as the program must 
           remember and delete all the apples that were caught by the basket in the previous frame. 
@@ -344,7 +345,7 @@ const ProjectsList = () => {
         type={"Lab (Academia)"}
         date={"Mar. 2022 - Apr. 2022"}
         role={"Individual Project"}
-        tool={"C Programming Language"}
+        tool={"C"}
         status={[{color: "success", name: "Completed"}]}
         description={
         <>
