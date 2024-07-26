@@ -10,12 +10,261 @@ import {
   warOne, warTwo, warThree, warFour, warFive, warSix, warSeven, warEight, warNine,
   warTen,
   appleOne, appleTwo, appleThree, appleFour, appleFive,
-  mapOne, mapTwo, mapThree, mapFour, mapFive, mapSix, mapSeven, mapEight
+  mapOne, mapTwo, mapThree, mapFour, mapFive, mapSix, mapSeven, mapEight,
+  APS360Model,
+  ECE368Lab1One, ECE368Lab1Two,
+  ECE368Lab2One, ECE368Lab2Two, ECE368Lab2Three, ECE368Lab2Four, ECE368Lab2Five,
+  ECE368Lab2Six, ECE368Lab2Seven,
+  PenTrackerOne, PenTrackerTwo, PenTrackerThree, PenTrackerFour, PenTrackerFive,
+  PenTrackerSix, PenTrackerSeven, PenTrackerEight, PenTrackerNine, 
+  PenTrackerTen, PenTrackerEleven, PenTrackerTwelve, PenTrackerThirteen
 } from './imports.js';
 
 const ProjectsList = () => {
   return (
     <>
+      <ProjectContainer
+        name={"Handwriting-To-Text Converter (CNN + GRU)"}
+        images={
+        [
+          {source: APS360Model, caption: "", alt: ""}
+        ]}
+        imageOrientation={"landscape"}
+        length={500}
+        type={"Project (Academia)"}
+        date={"Feb. 2024 - Apr. 2024"}
+        role={"Team Member"}
+        tool={"Python, PyTorch, OpenCV, NumPy, Matplotlib, SciPy, Pandas."}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          This project was done for APS360: Applied Fundamentals of Deep 
+          Learning. This project developed a deep learning model capable of 
+          converting images of handwriting text into digital texts. This 
+          conversion is often known as Optical Character Recognition and has 
+          broad implications in numerous fields including education, business, 
+          healthcare, and databases. By digitalizing documents, it enhances 
+          automation, accessibility, reliability, and allows other programs to 
+          analyze these documents.
+          <br /><br />
+          Charles' team designed a cascaded model architecture bringing out the 
+          best features of each model hereby optimizing performance, efficiency, 
+          and accuracy. The first stage of the model consists of a 
+          Convolution Neural Network (CNN) as they are efficient at processing 
+          images and extracting important geometric features. The CNN will
+          convert the raw pixels into meaningful embeddings that the model can 
+          use. These embeddings are then fed into Gated Recurrent Units (GRUs)
+          which are designed for sequential analysis. Through this, the GRU will 
+          be able to pick up sequential nature of text while using context to 
+          its advantage. Finally, the last stage is a fully-connected network 
+          allowing it to add more non-linearity to increase the flexibility of
+          the model. The Connectionist Temporal Classification (CTC) loss 
+          function and RMSprop optimizer were used in training to optimize its 
+          performance. The model was implemented in PyTorch and used various 
+          Python libraries for data collection and analysis.
+          <br /><br />
+          The IAM dataset was used to create a balanced dataset for training, 
+          validation, and testing. A total of 8000 training images were used and 
+          the team applied data processing techniques such as padding and 
+          resizing to support the creation of batches and data loaders.
+          <br /><br />
+          Based on our efforts, the final model outperformed the baseline model 
+          by achieving a test accuracy of 52% which is 23% higher than the 
+          baseline. The baseline consists of using transfer learning techniques 
+          to train the ResNet152 model. Since ResNet152 is a CNN model incapable 
+          of processing words, the team used OpenCV to split the words into 
+          individual characters and piecing the results back together. 
+          <br /><br />
+          Given the difficulty of the problem, the performance of the 
+          final model exceeded our expectations. As a result, Charles' team 
+          earned 100% on the final deliverable and 99.2% for the overall 
+          project. This success shows the bright future of OCR and its ability 
+          to handle real-world uses.
+          <br /><br />
+          Due to academic integrity, the source code of this project cannot be 
+          shared whatsoever. Please feel free to watch the demo video or 
+          reach out!
+        </>}
+        link={"N/A"}
+        github={"N/A"}
+        demo={"https://youtu.be/Zg3bZhiNgKk"}
+        horizontal_break={true}
+      />
+
+      <ProjectContainer
+        name={"Pen Tracker"}
+        images={[
+          {source: PenTrackerOne, caption: "", alt: ""},
+          {source: PenTrackerTwo, caption: "Startup Time (HAL_TIM)", alt: ""},
+          {source: PenTrackerThree, caption: "", alt: ""},
+          {source: PenTrackerFour, caption: "", alt: ""},
+          {source: PenTrackerFive, caption: "", alt: ""},
+          {source: PenTrackerSix, caption: "", alt: ""},
+          {source: PenTrackerSeven, caption: "", alt: ""},
+          {source: PenTrackerEight, caption: "", alt: ""},
+          {source: PenTrackerNine, caption: "", alt: ""},
+          {source: PenTrackerTen, caption: "", alt: ""},
+          {source: PenTrackerEleven, caption: "", alt: ""},
+          {source: PenTrackerTwelve, caption: "MPU6050", alt: ""},
+          {source: PenTrackerThirteen, caption: "Soldered MPU6050", alt: ""}
+        ]}
+        imageOrientation={"square"}
+        length={500}
+        type={"Project (Academia)"}
+        date={"Feb. 2024 - Apr. 2024"}
+        role={"Team Member"}
+        tool={"C, STM32, Python, Matplotlib, NumPy, Serial Port (UART)."}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          This project was done for ECE342: Computer Hardware. In a team of two,
+          they have designed a pen tracking system that runs on the STM32 
+          Nucleo-F446ZE micro-controller. To accomplish this feat, they utilized 
+          the MPU6050 accelerometer and gyroscope to provide real-time 
+          sensitivity all while offering 6 degrees of freedom. However, it was 
+          not an easy "plug-and-play" as the sensor inherently contained a lot 
+          of noise and inaccuracies making any sort of tracking difficult. To 
+          mitigate these noise and the effect of accelerometer drift, they 
+          implemented the complementary filter and configured the digital low 
+          pass filter and sample rate divider to meet their needs. The I2C 
+          fast mode was used to obtain a stable data flow from the sensor while 
+          minimizing latency. Charles also utilized the timer from HAL_TIM to 
+          measure the time involved with such operations.
+          <br /><br />
+          Besides the MPU6050, other peripherals like the keypad and button both 
+          equipped with interrupts were used to enhance user experience. The 
+          Grayhill Series 88 Keypad allowed the user to switch the color of
+          the pen to suit their likings. Furthermore, the button allows the 
+          program to reset the position of the pen back to the origin for 
+          calibration purposes. 
+          <br /><br />
+          In order to draw out the animation, the program used serial port 
+          often known as UART to send data continuously to the Python script. 
+          Furthermore, to convert the data from the MPU6050 sensor into 
+          positional and rotation movements, they used kinematics equations
+          and rotation matrices learned from their past courses. The script 
+          utilized the Matplotlib library to display the pen in 3D coordinates 
+          as shown in the demo video. 
+          <br /><br />
+          Besides the software side, Charles has also learned the experience of 
+          soldering and 3D printing in order to create the capsule shown in the 
+          photos above. All in all, the team believes that this technology has 
+          broad implications in healthcare as the meta-data collected from the 
+          pen can help determine patient's strength, patience, mood, & stability 
+          aiming to improve the rehabilitation process. It can also be used for 
+          research purposes to analyze those with writing disabilities and 
+          derive unique solutions for them. This pen tracker could also be used 
+          in the security domain to identify forgeries associated with 
+          signatures.
+          <br /><br />
+          Due to academic integrity, the source code of this project cannot be 
+          shared whatsoever. Please feel free to watch the demo video or reach 
+          out!
+        </>}
+        link={"N/A"}
+        github={"N/A"}
+        demo={"https://youtube.com/watch/BwLwbAd-o9k"}
+        horizontal_break={true}
+      />
+
+      <ProjectContainer
+        name={"Bayesian Linear Regression"}
+        images={[
+          {source: ECE368Lab2One, caption: "", alt: ""},
+          {source: ECE368Lab2Two, caption: "", alt: ""},
+          {source: ECE368Lab2Three, caption: "", alt: ""},
+          {source: ECE368Lab2Four, caption: "", alt: ""},
+          {source: ECE368Lab2Five, caption: "", alt: ""},
+          {source: ECE368Lab2Six, caption: "", alt: ""},
+          {source: ECE368Lab2Seven, caption: "", alt: ""}
+        ]}
+        imageOrientation={"landscape"}
+        length={500}
+        type={"Lab (Academia)"}
+        date={"Mar. 2024"}
+        role={"Individual"}
+        tool={"Python, NumPy, Matplotlib, SciPy."}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          This lab was done for ECE368: Probabilistic Reasoning. The purpose of 
+          this lab is to be able to fit a linear line of the form (y = mx + b) 
+          given its noise-induced points of (x, y). By using Bayesian regression 
+          techniques, Charles was able to calculate both the posterior and the 
+          prediction distributions. As a result, he implemented these 
+          distributions in Python and was able to observe how the 
+          posterior distribution became more confident and accurate as the 
+          number of sample points increased. He was also able to verify the 
+          phenomena in which the uncertainty of the prediction distribution 
+          grows as one moves further away from the training data points. Due to
+          his efforts, he scored 100% on this lab.
+          <br /><br />
+          Due to academic integrity, the source code of this lab cannot be 
+          shared whatsoever.
+        </>}
+        link={"N/A"}
+        github={"N/A"}
+        demo={"N/A"}
+        horizontal_break={true}
+      />
+
+      <ProjectContainer
+        name={"Spam Filtering Using Naïve Bayes"}
+        images={[
+          {source: ECE368Lab1One, caption: "", alt: ""},
+          {source: ECE368Lab1Two, caption: "", alt: ""}
+        ]}
+        imageOrientation={"landscape"}
+        length={500}
+        type={"Lab (Academia)"}
+        date={"Feb. 2024"}
+        role={"Individual"}
+        tool={"Python, Matplotlib."}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          This lab was done for ECE368: Probabilistic Reasoning. As by the name, 
+          this program is designed to classify whether an email is spam or not 
+          by using the Naïve Bayes model. Simply put, the model will take in an 
+          email and parse through each word sequentially. Based on the knowledge
+          obtained during training, it will be able to analyze the probability 
+          that this word is picked given that it is a spam email. By using 
+          probabilistic methods, it will then be able to classify the email once 
+          it has parsed all the words.
+          <br /><br />
+          To ensure numerical stability, it uses Laplace Smoothing during 
+          training to be able to handle seeing new words during the inference 
+          stage. As a result, the model which was implemented in Python, 
+          achieved an F1 score of  89.4% on the testing dataset. After 
+          achieving this feat, Charles went on to explore how modifying the 
+          decision rule impacts the number of Type 1 and Type 2 errors which 
+          verified the Neyman-Person's Lemma.
+          <br /><br />
+          Due to academic integrity, the source code of this lab cannot be 
+          shared whatsoever.
+        </>}
+        link={"N/A"}
+        github={"N/A"}
+        demo={"N/A"}
+        horizontal_break={true}
+      />
+
       <ProjectContainer
         name={"Multi-Party Text Conferencing Application"}
         images={"N/A"}
@@ -86,8 +335,9 @@ const ProjectsList = () => {
           commands. Charles' group earned 100% on this lab and completed the last section one week 
           before the deadline!
           <br /><br />
-          Due to academic integrity, the source code of this project cannot be shared whatsoever.
-          Please feel free to watch the demo video or reach out!
+          Due to academic integrity, the source code of this lab cannot be 
+          shared whatsoever. Please feel free to watch the demo video or reach 
+          out!
         </>}
         link={"N/A"}
         github={"N/A"}

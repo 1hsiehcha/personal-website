@@ -43,6 +43,7 @@ const Education = (props) => {
                 <tr>
                   <th><p>{entry.headerOne}</p></th>
                   <th><p>{entry.headerTwo}</p></th>
+                  <th><p>{entry.headerThree}</p></th>
                 </tr>
               ))}
             </thead>
@@ -52,6 +53,7 @@ const Education = (props) => {
                 <tr>
                   <td>{entry.first}</td>
                   <td>{entry.second}</td>
+                  <td>{entry.third}</td>
                 </tr>
               ))}
             </tbody>

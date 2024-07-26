@@ -1,6 +1,6 @@
 import React from 'react';
 import './skills.css';
-import { cpp, c, python, react, javascript, css, html, matLab, github, git, latex, verilog, arm, quartus, gtk, vscode, LTSpice, multisim, logisim, valgrind, glade, modelsim, Linux, OpenMP, GitLab, Sentaurus, Wireshark} from './imports.js';
+import { cpp, c, python, react, javascript, css, html, matLab, github, git, latex, verilog, arm, quartus, gtk, vscode, LTSpice, multisim, logisim, valgrind, glade, modelsim, Linux, OpenMP, GitLab, Sentaurus, Wireshark, NumPy, SciPy, Pandas, Matplotlib, Keil, STM32CubeIDE, STM32CubeMX, STM32F446ZE, DE1SoC, PyTorch, Hercules, Jupyter, GoogleColab, Bash} from './imports.js';
 import { Footer } from '../../components';
 
 const SkillsList = () => {
@@ -16,6 +16,12 @@ const SkillsList = () => {
         title={"C"}
         image={c}
         image_alt={"C"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Python"}
+        image={python}
+        image_alt={"Python"}
       />
 
       <ImageSkillsContainer 
@@ -46,6 +52,12 @@ const SkillsList = () => {
         title={"HTML"}
         image={html}
         image_alt={"HTML"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Bash"}
+        image={Bash}
+        image_alt={"Bash"}
       />
 
       <ImageSkillsContainer 
@@ -103,9 +115,63 @@ const SkillsList = () => {
       />
 
       <ImageSkillsContainer 
-        title={"Python"}
-        image={python}
-        image_alt={"Python"}
+        title={"PyTorch"}
+        image={PyTorch}
+        image_alt={"PyTorch"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Keil uVision"}
+        image={Keil}
+        image_alt={"Keil uVision"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Jupyter Notebook"}
+        image={Jupyter}
+        image_alt={"Jupyter Notebook"}
+      />
+
+      <ImageSkillsContainer 
+        title={"NumPy"}
+        image={NumPy}
+        image_alt={"NumPy"}
+      />
+
+      <ImageSkillsContainer 
+        title={"SciPy"}
+        image={SciPy}
+        image_alt={"SciPy"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Pandas"}
+        image={Pandas}
+        image_alt={"Pandas"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Matplotlib"}
+        image={Matplotlib}
+        image_alt={"Matplotlib"}
+      />
+
+      <ImageSkillsContainer 
+        title={"STM32CubeIDE"}
+        image={STM32CubeIDE}
+        image_alt={"STM32CubeIDE"}
+      />
+
+      <ImageSkillsContainer 
+        title={"STM32CubeMX"}
+        image={STM32CubeMX}
+        image_alt={"STM32CubeMX"}
+      />
+
+      <ImageSkillsContainer 
+        title={"STM32-Nucleo-F446ZE"}
+        image={STM32F446ZE}
+        image_alt={"STM32-Nucleo-F446ZE"}
       />
 
       <ImageSkillsContainer 
@@ -118,6 +184,12 @@ const SkillsList = () => {
         title={"Intel® Quartus Prime"}
         image={quartus}
         image_alt={"Intel® Quartus Prime"}
+      />
+
+      <ImageSkillsContainer 
+        title={"De1-SoC"}
+        image={DE1SoC}
+        image_alt={"De1-SoC"}
       />
 
       <ImageSkillsContainer 
@@ -160,6 +232,18 @@ const SkillsList = () => {
         title={"Vscode"}
         image={vscode}
         image_alt={"Vscode"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Google Colab"}
+        image={GoogleColab}
+        image_alt={"Google Colab"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Hercules"}
+        image={Hercules}
+        image_alt={"Hercules"}
       />
 
       <ImageSkillsContainer 

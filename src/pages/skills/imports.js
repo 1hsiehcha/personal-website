@@ -25,6 +25,20 @@ import OpenMP from '../../assets/OpenMP.png';
 import GitLab from '../../assets/gitlab.png';
 import Sentaurus from '../../assets/sentaurus.png';
 import Wireshark from '../../assets/Wireshark.png';
+import NumPy from '../../assets/NumPy.jpg';
+import SciPy from '../../assets/SciPy.jpg';
+import Pandas from '../../assets/pandas.jpg';
+import Matplotlib from '../../assets/MatPlotLib.png';
+import Keil from '../../assets/Keil.png';
+import STM32CubeIDE from '../../assets/STMCubeIDE.png';
+import STM32CubeMX from '../../assets/STM32CubeMx.png';
+import STM32F446ZE from '../../assets/STM32-Nucleo-F446ZE.jpg';
+import DE1SoC from '../../assets/DE1-SoC.png';
+import PyTorch from '../../assets/Pytorch.png';
+import Hercules from '../../assets/hercules.png';
+import Jupyter from '../../assets/Jupyter-notebook.png';
+import GoogleColab from '../../assets/Google-Colab.png';
+import Bash from '../../assets/Bash.png';
 
 export {
   cpp,
@@ -53,5 +67,19 @@ export {
   OpenMP,
   GitLab,
   Sentaurus,
-  Wireshark
+  Wireshark,
+  NumPy,
+  SciPy,
+  Pandas,
+  Matplotlib,
+  Keil,
+  STM32CubeIDE,
+  STM32CubeMX,
+  STM32F446ZE,
+  DE1SoC,
+  PyTorch,
+  Hercules,
+  Jupyter,
+  GoogleColab,
+  Bash
 }

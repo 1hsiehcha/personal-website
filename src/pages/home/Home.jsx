@@ -11,11 +11,16 @@ const PageTitle = () => {
       title={"Welcome!"}
       description={
         <>
-          Charles Hsieh is a current undergraduate student studying at University of Toronto.
-          He is studying in the stream of Electrical and Computer Engineering and is open to both
-          hardware and software development. Through the experiences he has gained, he has
-          exposure to areas of software development, computer networks, hardware, and 
-          web development. He is currently pursuing an AI minor as well.
+          Charles Hsieh is an undergraduate Computer Engineering student
+          at University of Toronto. He has worked as a research intern at 
+          University of Toronto under the Center of Excellence for Networking 
+          Innovation in Toronto (CENIT) for Summer 2024. Through various 
+          experiences, he has exposure to areas of software development, 
+          computer networks, AI, hardware, and web development. He is currently 
+          pursuing an AI minor as well.
+          <br /><br />
+          This website serves as an online portfolio to help better understand
+          Charles.
         </>
       }
     />
@@ -31,13 +36,13 @@ const EducationDescriptions = () => {
         school_name={"University of Toronto"}
         description={
           <>
-            Date: Sep. 2021 - Apr. 2026 (including PEY Co-op)
+            Date: Sep. 2021 - Apr. 2025
             <br />
             Bachelor of Applied Science and Engineering (B.A.Sc.) in Computer Engineering
             <br />
-            Cumulative GPA: 3.82/4.00 (after Fall 2023)
+            Cumulative GPA: 3.84/4.00 (after Winter 2024)
             <br />
-            Average Score: 87.26% (after Fall 2023)
+            Average Score: 87.34375% (after Winter 2024)
             <br />
             Pursuing AI minor
             <br /> <br />
@@ -77,12 +82,12 @@ const EducationDescriptions = () => {
         table3={
           [
             {title: "Third Year"},
-            {headerOne: "Fall 2023", headerTwo: "Summer 2023"},
-            {first: "ECE302H1 Probability & Applications", second: "JRE420H1 People Management & Organizational Behaviour"},
-            {first: "ECE335H1 Introduction to Electronic Devices", second: "TEP444H1 Positive Psychology for Engineers"},
-            {first: "ECE344H1 Operating Systems"},
-            {first: "ECE345H1 Algorithms & Data Structures"},
-            {first: "ECE361H1 Computer Networks I"}
+            {headerOne: "Summer 2023", headerTwo: "Fall 2023", headerThree: "Winter 2024"},
+            {first: "JRE420H1 People Management & Organizational Behaviour", second: "ECE302H1 Probability & Applications", third: "APS360H1 Applied Fundamentals of Deep Learning"},
+            {first: "TEP444H1 Positive Psychology for Engineers", second: "ECE335H1 Introduction to Electronic Devices", third: "ECE311H1 Introduction to Control Systems"},
+            {second: "ECE344H1 Operating Systems", third: "ECE330H1 Quantum & Semiconductor Physics"},
+            {second: "ECE345H1 Algorithms & Data Structures", third: "ECE342H1 Computer Hardware"},
+            {second: "ECE361H1 Computer Networks I", third: "ECE368H1 Probabilistic Reasoning"}
           ]
         }
         table4={"N/A"}
