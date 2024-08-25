@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const LastUpdatedOn = () => {
   return (
     <>
-      July 25th, 2024.
+      August 25th, 2024.
     </>
   )
 }
