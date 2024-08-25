@@ -7,6 +7,60 @@ const ExperiencesList = () => {
   return (
     <>
       <ExperiencesContainer 
+        background={false}
+        name={"Computer Network Research Intern at University of Toronto"}
+        type={"Type: Summer Research Intern"}
+        date={"Date: May. 2024 - Aug. 2024"}
+        position={"Position: Undergrad Researcher"}
+        description={
+          <>
+            Charles worked as an research intern at the Center of Excellence for 
+            Networking Innovation in Toronto (CENIT). His main duty is to use 
+            the NS-3 simulator in C++ to simulate new routing algorithms 
+            developed by the CENIT and benchmark them against the state of the 
+            art protocols such as OSPF, RIPv2, and DSDV. As the co-author of 3 
+            papers, Charles worked alongside Professor J.J. Garcia-Luna-Aceves 
+            (Canada Excellence Research Chair) to develop new shortest 
+            multi-path routing algorithms which are loop-free at every instance. 
+            By avoiding routing table loops at all times, these algorithms do 
+            not waste resources and does not have to slow down its messaging for
+            the purposes of route flapping or excessive signaling. The 
+            multi-path nature of these algorithms serve as a major advantage 
+            over Diffusing Update Algorithm (DUAL) used in EIGRP as it permits 
+            the forwarding of messages along loop-free paths while the 
+            algorithm is converging to the shortest path. As a result, this 
+            minimizes the time that a router spends idling. Through the 
+            simulation results, it has been shown that these algorithms 
+            converges faster than OSPF, RIPv2, and DSDV after link-failure, 
+            link-recovery, node-failure, and node-recovery.
+            <br /><br />
+            Charles also improved the automation process associated with data 
+            collection by refactoring and adding new features to the Python and 
+            Bash scripts. These scripts connect with the NS-3 library to run 
+            simulations of interest, perform log compression, and generate 
+            important statistics such as convergence time and overhead. He also 
+            added a feature to count the number of synchronous steps that an 
+            algorithm takes to converge from an input event despite the 
+            asynchronous nature of NS-3. To do so, he used various libraries 
+            like Pandas, NumPy, Subprocess, Argparse, Psutil, and JSON.
+            <br /><br />
+            Charles also implemented existing algorithms of the Ideal Link 
+            State and Diffusing Update (DUAL) using the NS-3 simulator in C++. 
+            Although DUAL is published and standardized, it is not implemented 
+            in NS-3. Furthermore, the built-in version of OLSR and OSPF lacked 
+            the flexibility that CENIT needs for the benchmarking purposes. The 
+            implementations are designed to be faster than the DCE version of 
+            OSPF allowing more tests to be run at a shorter time.
+            <br /><br />
+            Charles worked with Google Cloud Compute Engine, Hyper-V VMs, and a 
+            native Ubuntu PC to speed up the workload associated with the 
+            NS-3 simulations. He learned how to install the Ubuntu OS onto a 
+            real machine using Etcher.
+          </>
+        }
+      />
+      
+      <ExperiencesContainer 
         background={true}
         name={"Engineering Strategies & Practice I & II"}
         type={"Type: Academic"}
