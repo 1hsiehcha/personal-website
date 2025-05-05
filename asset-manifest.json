@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.2a515b17.css",
-    "main.js": "/personal-website/static/js/main.2f90b022.js",
+    "main.css": "/personal-website/static/css/main.4ce139a9.css",
+    "main.js": "/personal-website/static/js/main.ff2dec15.js",
     "static/media/war5.png": "/personal-website/static/media/war5.d812f5ef3d6c3d53266e.png",
     "static/media/war6.png": "/personal-website/static/media/war6.3f43ea7626c2b3666483.png",
     "static/media/war7.png": "/personal-website/static/media/war7.431b2e5f3d04393cfdc5.png",
@@ -31,6 +31,7 @@
     "static/media/war10.png": "/personal-website/static/media/war10.7fdbaf08d21ad6cec04b.png",
     "static/media/war2.png": "/personal-website/static/media/war2.5eef2430f58e2041b767.png",
     "static/media/war1.png": "/personal-website/static/media/war1.e3c06f06013b66d38571.png",
+    "static/media/ECE421-Lab-4-Results.png": "/personal-website/static/media/ECE421-Lab-4-Results.7dc1e050715006545998.png",
     "static/media/war3.png": "/personal-website/static/media/war3.fa0c9ab197852516aa96.png",
     "static/media/war4.png": "/personal-website/static/media/war4.25ca3b6f6ba7bdc1aee7.png",
     "static/media/Pen-Tracker12.jpg": "/personal-website/static/media/Pen-Tracker12.9163c015ff5cecea0f39.jpg",
@@ -41,6 +42,7 @@
     "static/media/STMCubeIDE.png": "/personal-website/static/media/STMCubeIDE.d3eb62cdc368c648509b.png",
     "static/media/Pen-Tracker13.jpg": "/personal-website/static/media/Pen-Tracker13.8dba3130d31c02bd619a.jpg",
     "static/media/map7.png": "/personal-website/static/media/map7.c1bae48b0bd22a29e363.png",
+    "static/media/ECE421-Lab-4-Game.png": "/personal-website/static/media/ECE421-Lab-4-Game.e6bdd995e1c961fe5ca7.png",
     "static/media/react.png": "/personal-website/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/multisim.png": "/personal-website/static/media/multisim.4b5cb2acbece11bf8c52.png",
     "static/media/APS360-Model.png": "/personal-website/static/media/APS360-Model.4905764277a8c92611f6.png",
@@ -49,6 +51,7 @@
     "static/media/ECE368-Lab2-7.png": "/personal-website/static/media/ECE368-Lab2-7.34e272b6a4670d778406.png",
     "static/media/HT.png": "/personal-website/static/media/HT.70ba5136b1d74c0574ae.png",
     "static/media/ECE368-Lab2-3.png": "/personal-website/static/media/ECE368-Lab2-3.2e1bc478c9e536c70232.png",
+    "static/media/GDB.png": "/personal-website/static/media/GDB.04863f756ac1af125141.png",
     "static/media/matlab.png": "/personal-website/static/media/matlab.2b608e94f8e1c2c9cd8e.png",
     "static/media/ECE368-Lab2-2.png": "/personal-website/static/media/ECE368-Lab2-2.dda61c67e2a512cb5563.png",
     "static/media/C++.png": "/personal-website/static/media/C++.2b2276395e116be80813.png",
@@ -60,14 +63,18 @@
     "static/media/ECE368-Lab2-4.png": "/personal-website/static/media/ECE368-Lab2-4.de593f56a76f427c84f1.png",
     "static/media/C.png": "/personal-website/static/media/C.837a49116fe3c020f47d.png",
     "static/media/ECE368-Lab2-6.png": "/personal-website/static/media/ECE368-Lab2-6.0ef247b4ae6f3b779f23.png",
+    "static/media/ECE421-Lab-3-error.png": "/personal-website/static/media/ECE421-Lab-3-error.bbce0966c25a743d6774.png",
     "static/media/ECE368-Lab1-1.png": "/personal-website/static/media/ECE368-Lab1-1.363f0ed07525545b9cda.png",
     "static/media/gitlab.png": "/personal-website/static/media/gitlab.a4929e99f6034bd0405c.png",
     "static/media/Bash.png": "/personal-website/static/media/Bash.05bf63d3041f19efe7d4.png",
     "static/media/reversi1.png": "/personal-website/static/media/reversi1.01114612b47f2d9b6cf3.png",
     "static/media/reversi6.png": "/personal-website/static/media/reversi6.65601a2a27adecbf9add.png",
+    "static/media/ECE421-Lab-3-loss.png": "/personal-website/static/media/ECE421-Lab-3-loss.851757401899966dddc9.png",
     "static/media/ARM.png": "/personal-website/static/media/ARM.2e33571517b1ede08d35.png",
     "static/media/github.png": "/personal-website/static/media/github.261797f7f602fb1a6e5d.png",
+    "static/media/gem5.png": "/personal-website/static/media/gem5.99da830505a789105ef5.png",
     "static/media/verilog.png": "/personal-website/static/media/verilog.36dfb11f66366a15d1fd.png",
+    "static/media/gRPC.png": "/personal-website/static/media/gRPC.568817f914de11315be9.png",
     "static/media/reversi5.png": "/personal-website/static/media/reversi5.3a5a281cb0d8121e5cd7.png",
     "static/media/reversi4.png": "/personal-website/static/media/reversi4.845875b986643eb857ac.png",
     "static/media/Google-Colab.png": "/personal-website/static/media/Google-Colab.f7641631efde6d747ece.png",
@@ -90,11 +97,11 @@
     "static/media/github_logo_2.png": "/personal-website/static/media/github_logo_2.8684d899f96b311f15a3.png",
     "static/media/html.png": "/personal-website/static/media/html.ec44060fbfd374ba0f6b.png",
     "index.html": "/personal-website/index.html",
-    "main.2a515b17.css.map": "/personal-website/static/css/main.2a515b17.css.map",
-    "main.2f90b022.js.map": "/personal-website/static/js/main.2f90b022.js.map"
+    "main.4ce139a9.css.map": "/personal-website/static/css/main.4ce139a9.css.map",
+    "main.ff2dec15.js.map": "/personal-website/static/js/main.ff2dec15.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a515b17.css",
-    "static/js/main.2f90b022.js"
+    "static/css/main.4ce139a9.css",
+    "static/js/main.ff2dec15.js"
   ]
 }
