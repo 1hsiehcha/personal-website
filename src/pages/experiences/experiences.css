@@ -24,6 +24,15 @@
   margin-bottom: min(15vw, 2rem);
 }
 
+.charles__experiences a {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size__title);
+  line-height: var(--line-height__title);
+  color: blue;
+}
+
 .charles__experiences__container-odd_variation {
   background: lightgray;
 }

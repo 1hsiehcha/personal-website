@@ -1,6 +1,6 @@
 import React from 'react';
 import './skills.css';
-import { cpp, c, python, react, javascript, css, html, matLab, github, git, latex, verilog, arm, quartus, gtk, vscode, LTSpice, multisim, logisim, valgrind, glade, modelsim, Linux, OpenMP, GitLab, Sentaurus, Wireshark, NumPy, SciPy, Pandas, Matplotlib, Keil, STM32CubeIDE, STM32CubeMX, STM32F446ZE, DE1SoC, PyTorch, Hercules, Jupyter, GoogleColab, Bash} from './imports.js';
+import { cpp, c, python, react, javascript, css, html, matLab, github, git, latex, verilog, arm, quartus, gtk, vscode, LTSpice, multisim, logisim, valgrind, glade, modelsim, Linux, OpenMP, GitLab, Sentaurus, Wireshark, NumPy, SciPy, Pandas, Matplotlib, Keil, STM32CubeIDE, STM32CubeMX, STM32F446ZE, DE1SoC, PyTorch, Hercules, Jupyter, GoogleColab, Bash, NS3, GDB, gem5, CBP4, gRPC} from './imports.js';
 import { Footer } from '../../components';
 
 const SkillsList = () => {
@@ -58,6 +58,18 @@ const SkillsList = () => {
         title={"Bash"}
         image={Bash}
         image_alt={"Bash"}
+      />
+
+      <ImageSkillsContainer 
+        title={"NS-3"}
+        image={NS3}
+        image_alt={"NS-3"}
+      />
+
+      <ImageSkillsContainer 
+        title={"GDB"}
+        image={GDB}
+        image_alt={"GDB"}
       />
 
       <ImageSkillsContainer 
@@ -154,6 +166,30 @@ const SkillsList = () => {
         title={"Matplotlib"}
         image={Matplotlib}
         image_alt={"Matplotlib"}
+      />
+
+      <ImageSkillsContainer 
+        title={"SimpleScalar"}
+        image={"N/A"}
+        image_alt={"N/A"}
+      />
+
+      <ImageSkillsContainer 
+        title={"gem5"}
+        image={gem5}
+        image_alt={"gem5"}
+      />
+
+      <ImageSkillsContainer 
+        title={"CBP-4 Simulator"}
+        image={CBP4}
+        image_alt={"CBP-4"}
+      />
+
+      <ImageSkillsContainer 
+        title={"gRPC"}
+        image={gRPC}
+        image_alt={"gRPC"}
       />
 
       <ImageSkillsContainer 
@@ -262,7 +298,9 @@ const ImageSkillsContainer = (props) => {
         <h1>
           {props.title}
           <br />
-          <img src={props.image} alt={props.image_alt}/>
+          {props.image !== "N/A" && (
+            <img src={props.image} alt={props.image_alt}/>
+          )}
         </h1>
       </div>
     </>
@@ -277,9 +315,9 @@ const Skills = () => {
           <h1 className="gradient__text">Skills</h1>
           
           <p>
-            This page lists out all of the languages and tools that Charles had experienced 
-            using in his life. To learn more about Charles' expertise amongst these tools, 
-            please feel free to contact him.
+            This page lists out all of the languages and tools that Charles 
+            experienced using. To learn more about Charles' expertise
+            amongst these tools, please feel free to contact him.
           </p>
         </div>
 

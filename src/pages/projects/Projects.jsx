@@ -17,12 +17,53 @@ import {
   ECE368Lab2Six, ECE368Lab2Seven,
   PenTrackerOne, PenTrackerTwo, PenTrackerThree, PenTrackerFour, PenTrackerFive,
   PenTrackerSix, PenTrackerSeven, PenTrackerEight, PenTrackerNine, 
-  PenTrackerTen, PenTrackerEleven, PenTrackerTwelve, PenTrackerThirteen
+  PenTrackerTen, PenTrackerEleven, PenTrackerTwelve, PenTrackerThirteen,
+  ECE421Lab3Error, ECE421Lab3Loss,
+  ECE421Lab4Game, ECE421Lab4Results
 } from './imports.js';
 
 const ProjectsList = () => {
   return (
     <>
+      <ProjectContainer
+        name={"Spreading computations for loop-free multipath routing in computer networks"}
+        images={"N/A"}
+        length={500}
+        type={"Publication (Full Paper)"}
+        date={"Nov. 2024"}
+        role={"Co-author"}
+        tool={"C++, Google Cloud, Bash, Python, Pandas, NumPy, Subprocess, Argparse, Psutil, and JSON."}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          Abstract:
+          Loop-free routing approaches based on distance information combine a 
+          Local Ordering Condition (LOC) with a distributed reordering 
+          computation (DRC). The LOC allows routers to determine whether they 
+          can independently change next hops to destinations without creating a
+          routing loop, and the DRC permits routers re-establish their ordering 
+          relative to a destination when the LOC is not satisfied. A new type of
+          DRC called Spreading Computations is shown to be inherently more 
+          efficient than DRCs used in existing loop-free routing protocols. A 
+          new routing algorithm based on spreading computations is presented and
+          compared with OSPF, DSDV, and RIPv2 using the ns-3 simulator. The 
+          results show that using spreading computations results in faster 
+          convergence speeds after link or router recoveries or failures.
+          <br /><br />
+          Due to academic integrity, the source code of the NS-3 tests cannot be 
+          shared whatsoever. Please feel free to reach out if you have any 
+          questions!
+        </>}
+        link={"https://ieeexplore.ieee.org/document/10850473"}
+        github={"N/A"}
+        demo={"N/A"}
+        horizontal_break={true}
+      />
+
       <ProjectContainer
         name={"Handwriting-To-Text Converter (CNN + GRU)"}
         images={
@@ -92,6 +133,110 @@ const ProjectsList = () => {
         link={"N/A"}
         github={"N/A"}
         demo={"https://youtu.be/Zg3bZhiNgKk"}
+        horizontal_break={true}
+      />
+
+      <ProjectContainer
+        name={"myTorch: Feed-Forward Neural Network"}
+        images={[
+          {source: ECE421Lab3Error, caption: "", alt: ""},
+          {source: ECE421Lab3Loss, caption: "", alt: ""}
+        ]}
+        imageOrientation={"landscape"}
+        length={500}
+        type={"Lab (Academia)"}
+        date={"Nov. 2024"}
+        role={"Lead Developer"}
+        tool={"Python, NumPy."}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          This lab was done for ECE421: Introduction to Machine Learning. The 
+          main objective is to create a small version of the PyTorch library
+          using NumPy. In particular, this library implements a fully-connected
+          feed-forward neural network.
+          <br /><br />
+          This library uses mini-batch gradient descent with momentum as the 
+          optimization algorithm. To calculate the gradients, it uses the 
+          backpropagation algorithm which includes both the forward and backward
+          pass. To make the library efficient, it uses matrix batch operations 
+          instead of looping over training data points. Matrix operations allows 
+          the system to take advantage of the parallelism offered in GPUs. The 
+          chosen activation functions were ReLU for the hidden layers and 
+          Softmax for the output layer. The loss function implemented is 
+          cross-entropy.
+          <br /><br />
+          This library is unit-tested (74 test cases). It is then used to train 
+          a two-layer fully-connected network to perform classification on
+          the IRIS dataset. This model achieved a test accuracy of 96% with a 
+          cross-entropy loss of 0.1036! The figures above show the training 
+          curve for this model.
+          <br /><br />
+          Charles earned 110% on this lab with the bonus rewarded for completing 
+          the assignment well ahead of the deadline!
+          <br /><br />
+          Due to academic integrity, the source code of this lab cannot be 
+          shared whatsoever. Please feel free to reach out if you have any 
+          outstanding questions!
+        </>}
+        link={"N/A"}
+        github={"N/A"}
+        demo={"N/A"}
+        horizontal_break={true}
+      />
+
+      <ProjectContainer
+        name={"Pac-Man RL Agent"}
+        images={[
+          {source: ECE421Lab4Game, caption: "", alt: ""},
+          {source: ECE421Lab4Results, caption: "", alt: ""}
+        ]}
+        imageOrientation={"landscape"}
+        length={500}
+        type={"Lab (Academia)"}
+        date={"Nov. 2024 - Dec. 2024"}
+        role={"Lead Developer"}
+        tool={"Python"}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          This lab was done for ECE421: Introduction to Machine Learning. The 
+          objective of this lab is to implement value iteration, Q-learning, and 
+          approximate Q-learning functions. Once these functions are completed, 
+          the approximate Q-learning will be used to train a Pac-Man agent.
+          <br /><br />
+          The value iteration agent is an offline planner used for solving 
+          Markov Decision Processes (MDP). Since the value iteration agent does 
+          not learn from experience, it is not suitable for Pac-Man where the 
+          MDP model is unknown. Therefore, the Q-learning agent with 
+          epsilon-greedy exploration is implemented to interact with the 
+          environment and learn from trial & error. However, Q-learning by 
+          itself cannot generalize because each configuration of the board is 
+          considered a different state. So even if there is a slight 
+          modification to the board (Pac-Man is off by 1 distance), it will not 
+          know what to do if the state is unseen. This is where approximate 
+          Q-learning comes in! Approximate Q-learning learns weights for each 
+          feature of the state-action pair. These features are representative
+          of the Pac-Man game which can be generalized to different boards and 
+          situations.
+          <br /><br />
+          Charles earned 102.7% on this lab with the bonus rewarded for 
+          implementing the Prioritized Sweeping Value Iteration Agent!
+          <br /><br />
+          Due to academic integrity, the source code of this lab cannot be 
+          shared whatsoever. Please feel free to watch the demo video!
+        </>}
+        link={"N/A"}
+        github={"N/A"}
+        demo={"https://youtu.be/JLrzT8D52_k"}
         horizontal_break={true}
       />
 
@@ -701,14 +846,15 @@ const Projects = () => {
     <>
       <div className="charles__projects section__padding">
         <Title 
-          header={"Projects"}
+          header={"Projects + Publications"}
           introduction={
             <>
-              This page lists out the representative projects that Charles has worked
-              on. These projects are generally more difficult, so it requires him to have
-              a greater understanding of the respective topics and design in general. 
-              Through this, it showcases some of the skills that Charles has gained 
-              throughout his career.
+              This page lists out some of the projects and publications 
+              that Charles has worked on. These projects or publications are 
+              generally more difficult, so it requires him to have a greater 
+              understanding of the respective topics and design in general. 
+              Through this it showcases some of the skills that Charles has 
+              gained throughout his career.
             </>
           }
         />

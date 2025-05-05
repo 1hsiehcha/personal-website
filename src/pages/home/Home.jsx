@@ -11,13 +11,12 @@ const PageTitle = () => {
       title={"Welcome!"}
       description={
         <>
-          Charles Hsieh is an undergraduate Computer Engineering student
-          at University of Toronto. He has worked as a research intern at 
-          University of Toronto under the Center of Excellence for Networking 
-          Innovation in Toronto (CENIT) for Summer 2024. Through various 
-          experiences, he has exposure to areas of software development, 
-          computer networks, AI, hardware, and web development. He is currently 
-          pursuing an AI minor as well.
+          Charles Hsieh graduated from University of Toronto with a BASc in 
+          Computer Engineering. He worked as a research intern at University of 
+          Toronto under the Center of Excellence for Networking Innovation in 
+          Toronto (CENIT) for Summer 2024. Through various experiences, he has 
+          gained exposure to areas of software development, computer networks, 
+          AI, hardware, and web development.
           <br /><br />
           This website serves as an online portfolio to help better understand
           Charles.
@@ -38,20 +37,20 @@ const EducationDescriptions = () => {
           <>
             Date: Sep. 2021 - Apr. 2025
             <br />
-            Bachelor of Applied Science and Engineering (B.A.Sc.) in Computer Engineering
+            Bachelor of Applied Science and Engineering (BASc) in Computer Engineering
             <br />
-            Cumulative GPA: 3.84/4.00 (after Winter 2024)
+            Cumulative GPA: 3.86/4.00
             <br />
-            Average Score: 87.34375% (after Winter 2024)
+            Average Grade: 88.25%
             <br />
-            Pursuing AI minor
+            AI Minor + Business Certificate
             <br /> <br />
-            Charles was first admitted to University of Toronto through the stream of 
-            TrackOne, Undeclared Engineering. After finishing first year, he transferred 
-            into the stream of Electrical & Computer Engineering (ECE) to continue his 
-            degree. He is planning to graduate as a Computer Engineer (CE) and is currently
-            pursuing an AI minor. The following tables consists of all the courses that he 
-            has completed.
+            Charles was first admitted to University of Toronto through the 
+            stream of TrackOne, Undeclared Engineering. After finishing first 
+            year, he transferred into the stream of Electrical & Computer 
+            Engineering (ECE) to continue his degree. He graduated as a Computer
+            Engineer (CE) with an AI minor and business certificate. The 
+            following tables lists out all the courses that he has completed.
           </>
         }
         button={"N/A"}
@@ -90,7 +89,16 @@ const EducationDescriptions = () => {
             {second: "ECE361H1 Computer Networks I", third: "ECE368H1 Probabilistic Reasoning"}
           ]
         }
-        table4={"N/A"}
+        table4={
+          [
+            {title: "Fourth Year"},
+            {headerOne: "Fall 2024", headerTwo: "Winter 2025"},
+            {first: "CSC384H1 Introduction to Artificial Intelligence", second: "ECE472H1 Engineering Economic Analysis & Entrepreneurship"},
+            {first: "ECE421H1 Introduction to Machine Learning", second: "ECE496Y1 Design Project"},
+            {first: "ECE496Y1 Design Project", second: "JRE410H1 Markets & Competitive Strategy"},
+            {first: "ECE552H1 Computer Architecture", second: "TEP343H1 Engineering Leadership"}
+          ]
+        }
       />
 
       <Education 

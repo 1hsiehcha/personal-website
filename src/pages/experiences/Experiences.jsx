@@ -9,18 +9,19 @@ const ExperiencesList = () => {
       <ExperiencesContainer 
         background={false}
         name={"Computer Network Research Intern at University of Toronto"}
-        type={"Type: Summer Research Intern"}
+        type={"Type: Research Intern"}
         date={"Date: May. 2024 - Aug. 2024"}
-        position={"Position: Undergrad Researcher"}
+        position={"Position: Undergraduate Researcher"}
         description={
           <>
             Charles worked as an research intern at the Center of Excellence for 
             Networking Innovation in Toronto (CENIT). His main duty is to use 
             the NS-3 simulator in C++ to simulate new routing algorithms 
             developed by the CENIT and benchmark them against the state of the 
-            art protocols such as OSPF, RIPv2, and DSDV. As the co-author of 3 
-            papers, Charles worked alongside Professor J.J. Garcia-Luna-Aceves 
-            (Canada Excellence Research Chair) to develop new shortest 
+            art protocols such as OSPF, RIPv2, and DSDV. As the co-author of 
+            <a href="https://xplorestaging.ieee.org/document/10850473"> this 
+            paper</a>, Charles worked alongside Professor J.J. Garcia-Luna-
+            Aceves (Canada Excellence Research Chair) to develop novel shortest 
             multi-path routing algorithms which are loop-free at every instance. 
             By avoiding routing table loops at all times, these algorithms do 
             not waste resources and does not have to slow down its messaging for
@@ -32,7 +33,7 @@ const ExperiencesList = () => {
             minimizes the time that a router spends idling. Through the 
             simulation results, it has been shown that these algorithms 
             converges faster than OSPF, RIPv2, and DSDV after link-failure, 
-            link-recovery, node-failure, and node-recovery.
+            link-recovery, node-failure, and node-recovery events.
             <br /><br />
             Charles also improved the automation process associated with data 
             collection by refactoring and adding new features to the Python and 
@@ -40,8 +41,8 @@ const ExperiencesList = () => {
             simulations of interest, perform log compression, and generate 
             important statistics such as convergence time and overhead. He also 
             added a feature to count the number of synchronous steps that an 
-            algorithm takes to converge from an input event despite the 
-            asynchronous nature of NS-3. To do so, he used various libraries 
+            algorithm takes to converge as a result of an induced event despite 
+            the asynchronous nature of NS-3. To do so, he used various libraries 
             like Pandas, NumPy, Subprocess, Argparse, Psutil, and JSON.
             <br /><br />
             Charles also implemented existing algorithms of the Ideal Link 

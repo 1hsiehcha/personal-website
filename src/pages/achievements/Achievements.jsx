@@ -7,6 +7,30 @@ const AchievementsList = () => {
   return (
     <>
       <Feature 
+        title={"Winter 2025 Dean's Honour List at University of Toronto"}
+        text={
+        <>
+          Date: Apr. 2025<br /><br />
+          This award is given out to students that have completed a minimum of
+          2 credits in the term and have a weighted average of 79.5% or higher. 
+          The weighted term average does not consider the courses that are 
+          repeated or marked as "extra".
+        </>}
+      />
+
+      <Feature 
+        title={"Fall 2024 Dean's Honour List at University of Toronto"}
+        text={
+        <>
+          Date: Dec. 2024<br /><br />
+          This award is given out to students that have completed a minimum of
+          2 credits in the term and have a weighted average of 79.5% or higher. 
+          The weighted term average does not consider the courses that are 
+          repeated or marked as "extra".
+        </>}
+      />
+
+      <Feature 
         title={"NSERC Undergraduate Student Research Award"}
         text={
         <>

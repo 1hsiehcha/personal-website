@@ -39,6 +39,11 @@ import Hercules from '../../assets/hercules.png';
 import Jupyter from '../../assets/Jupyter-notebook.png';
 import GoogleColab from '../../assets/Google-Colab.png';
 import Bash from '../../assets/Bash.png';
+import NS3 from '../../assets/ns-3.png';
+import GDB from '../../assets/GDB.png';
+import gem5 from '../../assets/gem5.png';
+import CBP4 from '../../assets/CBP-4.jpg';
+import gRPC from '../../assets/gRPC.png';
 
 export {
   cpp,
@@ -81,5 +86,10 @@ export {
   Hercules,
   Jupyter,
   GoogleColab,
-  Bash
+  Bash,
+  NS3,
+  GDB,
+  gem5,
+  CBP4,
+  gRPC
 }

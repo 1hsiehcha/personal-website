@@ -50,6 +50,10 @@ import PenTrackerTen from '../../assets/Pen-Tracker10.jpg';
 import PenTrackerEleven from '../../assets/Pen-Tracker11.jpg';
 import PenTrackerTwelve from '../../assets/Pen-Tracker12.jpg';
 import PenTrackerThirteen from '../../assets/Pen-Tracker13.jpg';
+import ECE421Lab3Error from '../../assets/ECE421-Lab-3-error.png';
+import ECE421Lab3Loss from '../../assets/ECE421-Lab-3-loss.png';
+import ECE421Lab4Game from '../../assets/ECE421-Lab-4-Game.png';
+import ECE421Lab4Results from '../../assets/ECE421-Lab-4-Results.png';
 
 export {
   reversiOne,
@@ -103,5 +107,9 @@ export {
   PenTrackerTen,
   PenTrackerEleven,
   PenTrackerTwelve,
-  PenTrackerThirteen
+  PenTrackerThirteen,
+  ECE421Lab3Error,
+  ECE421Lab3Loss,
+  ECE421Lab4Game,
+  ECE421Lab4Results
 }
