@@ -150,6 +150,10 @@ const Education = (props) => {
           </table>
         </div>
       )}
+
+      {props.horizontal_break !== "N/A" && (
+        <hr />
+      )}
     </div>    
   )
 }

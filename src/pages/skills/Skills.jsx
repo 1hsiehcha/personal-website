@@ -316,7 +316,7 @@ const Skills = () => {
           
           <p>
             This page lists out all of the languages and tools that Charles 
-            experienced using. To learn more about Charles' expertise
+            has experience using. To learn more about Charles' expertise
             amongst these tools, please feel free to contact him.
           </p>
         </div>

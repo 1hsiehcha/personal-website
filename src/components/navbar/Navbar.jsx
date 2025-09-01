@@ -20,7 +20,7 @@ const Menu = () => (
     </NavLink></span></p>
 
     <p><span><NavLink to="/personal-website/projects" onClick={ClickFeature}>
-      Projects
+      Projects + Publications
     </NavLink></span></p>
 
     <p><span><NavLink to="/personal-website/skills" onClick={ClickFeature}>

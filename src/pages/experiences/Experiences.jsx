@@ -7,6 +7,49 @@ const ExperiencesList = () => {
   return (
     <>
       <ExperiencesContainer 
+        background={true}
+        name={"Student Research Trainee at University of Toronto"}
+        type={"Type: Research Trainee"}
+        date={"Date: Jun. 2025 - Aug. 2025"}
+        position={"Position: Student Researcher"}
+        description={
+          <>
+            Charles worked as a student research trainee at the Center of 
+            Excellence for Networking Innovation in Toronto (CENIT). His primary
+            role is to perform simulations of routing algorithms using the 
+            NS-3 simulator in C++. He has worked alongside Professor J.J. 
+            Garcia-Luna-Aceves (Canada Excellence Research Chair), to co-publish
+            two papers. The papers are published to the 2025 16th International 
+            Conference on Network of the Future (NoF) and the 2025 12th 
+            International Symposium on Networks, Computers and Communications 
+            (ISNCC).
+            <br /><br />
+            One of the features Charles worked on was a JSON logging mechanism 
+            within NS-3 to determine the precise convergence time. This is done 
+            by having routers log the time whenever they send or receive a 
+            non-periodic message. This approach significantly reduce the storage 
+            needed in comparison with the old method of calculating the 
+            convergence time from routing tables. He has also revamped the 
+            node-failure and node-recovery events to activate or disable 
+            communication across multiple links at the same time instead of 
+            doing them sequentially. By doing so, it ensures that failed links 
+            are disabled at the start of the simulation for recovery events.
+            <br /><br />
+            In addition to simulating the routing algorithms that CENIT has 
+            developed, he implemented a minimal version of OSPF (RFC 2328) in 
+            NS-3. This allows the research group to perform various experiments 
+            and tweak different parameters as needed.
+            <br /><br />
+            Furthermore, Charles passed down his knowledge of NS-3 to a fellow 
+            PhD student at CENIT. This enables the PhD student to perform their 
+            research on methods to improve network security via blockchains. 
+            This required Charles to improve the existing documentation of the
+            codebases and collaborate carefully with others.
+          </>
+        }
+      />
+
+      <ExperiencesContainer 
         background={false}
         name={"Computer Network Research Intern at University of Toronto"}
         type={"Type: Research Intern"}
@@ -20,17 +63,17 @@ const ExperiencesList = () => {
             developed by the CENIT and benchmark them against the state of the 
             art protocols such as OSPF, RIPv2, and DSDV. As the co-author of 
             <a href="https://xplorestaging.ieee.org/document/10850473"> this 
-            paper</a>, Charles worked alongside Professor J.J. Garcia-Luna-
-            Aceves (Canada Excellence Research Chair) to develop novel shortest 
-            multi-path routing algorithms which are loop-free at every instance. 
-            By avoiding routing table loops at all times, these algorithms do 
-            not waste resources and does not have to slow down its messaging for
-            the purposes of route flapping or excessive signaling. The 
-            multi-path nature of these algorithms serve as a major advantage 
-            over Diffusing Update Algorithm (DUAL) used in EIGRP as it permits 
-            the forwarding of messages along loop-free paths while the 
-            algorithm is converging to the shortest path. As a result, this 
-            minimizes the time that a router spends idling. Through the 
+            paper</a>, Charles worked alongside Professor J.J. 
+            Garcia-Luna-Aceves (Canada Excellence Research Chair) to develop 
+            novel shortest multi-path routing algorithms which are loop-free at 
+            every instance. By avoiding routing table loops at all times, these 
+            algorithms do not waste resources. In addition, it does not have to 
+            slow down its messaging for the purposes of route flapping or 
+            excessive signaling. The multi-path nature of these algorithms serve 
+            as a major advantage over Diffusing Update Algorithm (DUAL) used in 
+            EIGRP as it permits the forwarding of messages along loop-free paths 
+            while the algorithm is converging to the shortest path. As a result, 
+            this minimizes the time that a router spends idling. Through the 
             simulation results, it has been shown that these algorithms 
             converges faster than OSPF, RIPv2, and DSDV after link-failure, 
             link-recovery, node-failure, and node-recovery events.
@@ -69,30 +112,36 @@ const ExperiencesList = () => {
         position={"Position: Meeting Coordinator / Member"}
         description={
           <>
-            Engineering Strategies and Practice, often known as "ESP", are courses
-            offered to first year Engineering students to practice the skills of design
-            through real-life projects. The ESP courses are split between 2 semesters,
-            meaning that Charles has worked on 2 different projects. His meeting coordinator 
-            role allowed him to learn how ways to communicate well amongst his team, his 
-            client, and his manager. Alongside that, he learned the core concepts of design.
+            Engineering Strategies and Practice, often known as "ESP", are 
+            courses offered to first year Engineering students to practice the 
+            skills of design through real-life projects. The ESP courses are 
+            split between 2 semesters, meaning that Charles has worked on 2 
+            different projects. His meeting coordinator role allowed him to 
+            learn different ways to communicate amongst his team, client, and 
+            manager. Through this process, he has learned the core concepts of 
+            design.
             <br /><br />
-            The first project was about creating a mechanism to allow a food delivery robot 
-            to efficiently unload its package to the customer in a user-friendly way. Through 
-            his team of 5, the final design had multiple components. The central component uses 
-            a 4-bar linkage system to unload the food at an appropriate height similar to how
-            people would serve food. For safety reasons, it includes QR detector app to ensure 
-            that the food is delivered to the right customers and uses UV light to sanitize the 
-            robot to meet the COVID-19 regulations. The design included components to enhance its 
-            physical performance through waterproof materials, heat insulators, a GPS tracker, 
-            and 6 all-terrain tires.
+            The first project was about creating a mechanism to allow a food 
+            delivery robot to efficiently unload its package to the customer in 
+            a user-friendly way. Through a team of 5, the final design featured 
+            multiple components. The central component uses a 4-bar linkage 
+            system to unload the food at an appropriate height similar to how
+            a waiter would serve food. For safety reasons, it includes QR app to 
+            ensure that the food is delivered to the right customers and uses UV 
+            light to sanitize the package to meet the COVID-19 regulations. The 
+            design includes components to enhance its durability such as 
+            waterproof materials, heat insulators, a GPS tracker, and 6 
+            all-terrain wheels.
             <br /><br />
-            In the second project, Charles worked with a client. His client, Emerson Canada,
-            wanted his team of 6, to develop methods to reduce greenhouse gas (GHG) emission in
-            City of Toronto. The final design was a multi-layered wall insulation that consists
-            of using fiberglass, expanded polystyrene foam, and polyurethane foam. By conducting
-            physical experiments, the design proved to have a high heat resistance while being 
-            relatively cheap. It required no maintenance and the process (production, construction,
-            and implementation) yields a low carbon footprint.
+            In the second project, Charles worked with a client. His client, 
+            Emerson Canada, wanted his team of 6, to develop methods to reduce 
+            greenhouse gas (GHG) emission in the City of Toronto. The final 
+            design featured a multi-layered wall insulation that consists of 
+            using fiberglass, expanded polystyrene foam, and polyurethane foam. 
+            By conducting physical experiments, the design proved to have a high 
+            heat resistance while being relatively cheap. It required no 
+            maintenance and the entire process from production to implementation
+            yields a low carbon footprint.
           </>
         }
       />
@@ -243,7 +292,7 @@ const Experiences = () => {
         <h1 className="gradient__text">Experiences</h1>
 
         <p>
-          This page shows all of the experiences that Charles has gained through 
+          This page shows all the experiences that Charles has gained through 
           his professional, academic, and extra-curricular endeavour.
         </p>
         <ExperiencesList />

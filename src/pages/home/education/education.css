@@ -170,3 +170,8 @@
   font-weight: 500;
   vertical-align: top;
 }
+
+.charles__education hr {
+  margin-top: min(2vw, 0.8rem);
+  margin-bottom: 0;
+}

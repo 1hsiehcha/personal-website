@@ -36,10 +36,9 @@ const AchievementsList = () => {
         <>
           Date: Apr. 2024<br /><br />
           This award is funded by the Government of Canada to help students 
-          develop research interests in fields of health, natural science, 
-          and engineering. By undertaking research work experience, it hopes to
-          prepare students for graduate studies and enhance their technical
-          skills.
+          develop research interests in the fields of health, natural science, 
+          and engineering. By undertaking research work, it hopes to prepare 
+          students for graduate studies and enhance their technical skills.
         </>}
       />
 
@@ -49,8 +48,9 @@ const AchievementsList = () => {
         <>
           Date: Apr. 2024<br /><br />
           This award is given out to students that have completed a minimum of
-          2 credits in the term and have a weighted average of 79.5% or higher. The weighted
-          term average does not consider the courses that are repeated or marked as "extra".
+          2 credits in the term and have a weighted average of 79.5% or higher. 
+          The weighted term average does not consider the courses that are 
+          repeated or marked as "extra".
         </>}
       />
 
@@ -60,8 +60,9 @@ const AchievementsList = () => {
         <>
           Date: Dec. 2023<br /><br />
           This award is given out to students that have completed a minimum of
-          2 credits in the term and have a weighted average of 79.5% or higher. The weighted
-          term average does not consider the courses that are repeated or marked as "extra".
+          2 credits in the term and have a weighted average of 79.5% or higher. 
+          The weighted term average does not consider the courses that are 
+          repeated or marked as "extra".
         </>}
       />
 
@@ -71,8 +72,9 @@ const AchievementsList = () => {
         <>
           Date: Apr. 2023<br /><br />
           This award is given out to students that have completed a minimum of
-          2 credits in the term and have a weighted average of 79.5% or higher. The weighted
-          term average does not consider the courses that are repeated or marked as "extra".
+          2 credits in the term and have a weighted average of 79.5% or higher. 
+          The weighted term average does not consider the courses that are 
+          repeated or marked as "extra".
         </>}
       />
 
@@ -82,8 +84,9 @@ const AchievementsList = () => {
         <>
           Date: Dec. 2022<br /><br />
           This award is given out to students that have completed a minimum of
-          2 credits in the term and have a weighted average of 79.5% or higher. The weighted
-          term average does not consider the courses that are repeated or marked as "extra".
+          2 credits in the term and have a weighted average of 79.5% or higher. 
+          The weighted term average does not consider the courses that are 
+          repeated or marked as "extra".
         </>}
       />
 
@@ -93,8 +96,9 @@ const AchievementsList = () => {
         <>
           Date: Apr. 2022<br /><br />
           This award is given out to students that have completed a minimum of
-          2 credits in the term and have a weighted average of 79.5% or higher. The weighted
-          term average does not consider the courses that are repeated or marked as "extra".
+          2 credits in the term and have a weighted average of 79.5% or higher. 
+          The weighted term average does not consider the courses that are 
+          repeated or marked as "extra".
         </>}
       />
     
@@ -104,8 +108,9 @@ const AchievementsList = () => {
           <>
             Date: Dec. 2021<br /><br />
             This award is given out to students that have completed a minimum of
-            2 credits in the term and have a weighted average of 79.5% or higher. The weighted
-            term average does not consider the courses that are repeated or marked as "extra".
+            2 credits in the term and have a weighted average of 79.5% or higher. 
+            The weighted term average does not consider the courses that are 
+            repeated or marked as "extra".
           </>
         }
       />
@@ -115,8 +120,9 @@ const AchievementsList = () => {
         text={
           <>
             Date: Oct. 2021<br /><br />
-            This scholarship is awarded to students with outstanding academic achievement 
-            entering into their first year at University of Toronto's Engineering program.
+            This scholarship is awarded to students with outstanding academic 
+            achievement entering their first year at University of Toronto's 
+            Engineering program.
           </>
         }
       />
@@ -126,11 +132,11 @@ const AchievementsList = () => {
         text={
           <>
             Date: Oct. 2021<br /><br />
-            This award gives preference to students that display high academic achievements
-            in their final year of high school and is directly entering their undergraduate 
-            program upon graduation. Academic merits is considered alongside with 
-            financial needs. This award is governed by the University of Toronto's enrolment
-            services.
+            This award is given to students that display high academic 
+            achievement in their final year of high school and is directly 
+            entering the undergraduate program upon graduation. Academic merits 
+            is considered alongside with financial needs. This award is governed 
+            by the University of Toronto's enrolment services.
           </>
         }
       />
@@ -140,9 +146,10 @@ const AchievementsList = () => {
         text={
           <>
             Date: Sep. 2021<br /><br />
-            This scholarship is an admission type and only applies for incoming students.
-            The award's criteria considers both their academic merit and their financial needs. 
-            The award is offered by the University of Toronto's enrolment services.
+            This scholarship is an admission type and given exclusively to 
+            incoming students. This award considers both the student's academic 
+            merit as well as their financial needs. This award is offered by the
+            University of Toronto's enrolment services.
           </>
         }
       />
@@ -152,9 +159,10 @@ const AchievementsList = () => {
         text={
           <>
             Date: Sep. 2021<br /><br />
-            This award is given out to both international and domestic students coming 
-            from high school with an excellent overall academic standing. Most students
-            receiving this award have an average around mid-to-high 90s.
+            This award is given out to both international and domestic students 
+            coming from high school with an excellent overall academic standing. 
+            Most student receiving this award have an average around mid-to-high 
+            90s.
           </>
         }
       />
@@ -164,9 +172,9 @@ const AchievementsList = () => {
         text={
           <>
             Date: Jun. 2021<br /><br />
-            This award is given out to the student at Holy Trinity Catholic 
-            Secondary School that have the third highest overall average in the 
-            Grade 12 school year.
+            This award is given out to the Holy Trinity Catholic Secondary 
+            School student who have achieved the third highest overall average 
+            in the Grade 12 school year.
           </>
         }
       />
@@ -176,8 +184,9 @@ const AchievementsList = () => {
         text={
           <>
             Date: Jun. 2021<br /><br />
-            This award is given to Ontario high school graduates that have achieved an 
-            average of 80% or higher in their six best Grade 12 courses.
+            This award is given to Ontario high school graduates that have 
+            achieved an average of 80% or higher in their six best Grade 12 
+            courses.
           </>
         }
       />
@@ -187,9 +196,10 @@ const AchievementsList = () => {
         text={
           <>
             Date: Sep. 2017 - Jun. 2021<br /><br />
-            This award is given out to the student that has achieved the highest grade 
-            in that subject for that given school year. Here is the complete list of subjects
-            in which Charles have managed to win this award:
+            This award is handed out to the student that has achieved the 
+            highest grade in that subject for the given school year. Here is the 
+            complete list of subjects in which Charles have managed to win this 
+            award:
             <br /><br />
             Grade 12 Courses: <br />Calculus & Vectors AP (MCV4UA)<br />Advanced Functions AP (MHF4UA) 
             <br />Chemistry AP (SCH4UA)<br />Physics AP (SPH4UA)<br />Computer Science (ICS4U1)
@@ -216,11 +226,11 @@ const AchievementsList = () => {
         text={
           <>
             Date: Sep. 2017 - Jun. 2020<br /><br />
-            This award is given out to secondary students with the exception of
-            Grade 12 students in which their average for the school year is 90% 
-            or above.
+            This award is handed out to Grade 9 to 11 students who has achieved 
+            an average of 90% or above for that given school year.
             <br />
-            Charles have managed to achieve this award 3 times from Grade 9 to 11.
+            Charles have managed to achieve this award 3 times from Grades 9 to 
+            11.
           </>
         }
       />

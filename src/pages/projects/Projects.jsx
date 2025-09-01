@@ -22,7 +22,7 @@ import {
   ECE421Lab4Game, ECE421Lab4Results
 } from './imports.js';
 
-const ProjectsList = () => {
+const PublicationsList = () => {
   return (
     <>
       <ProjectContainer
@@ -63,7 +63,12 @@ const ProjectsList = () => {
         demo={"N/A"}
         horizontal_break={true}
       />
-
+    </>
+  )
+}
+const ProjectsList = () => {
+  return (
+    <>
       <ProjectContainer
         name={"Handwriting-To-Text Converter (CNN + GRU)"}
         images={
@@ -850,13 +855,20 @@ const Projects = () => {
           introduction={
             <>
               This page lists out some of the projects and publications 
-              that Charles has worked on. These projects or publications are 
+              that Charles has worked on. These projects and publications are 
               generally more difficult, so it requires him to have a greater 
               understanding of the respective topics and design in general. 
-              Through this it showcases some of the skills that Charles has 
-              gained throughout his career.
+              Through this process, it showcases some of the skills that Charles 
+              has gained throughout his career.
             </>
           }
+        />
+        <Title 
+          header={"Publications"}
+        />
+        <PublicationsList />
+        <Title 
+          header={"Projects"}
         />
         <ProjectsList />
       </div>

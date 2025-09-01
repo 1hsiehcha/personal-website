@@ -11,12 +11,13 @@ const PageTitle = () => {
       title={"Welcome!"}
       description={
         <>
-          Charles Hsieh graduated from University of Toronto with a BASc in 
-          Computer Engineering. He worked as a research intern at University of 
-          Toronto under the Center of Excellence for Networking Innovation in 
-          Toronto (CENIT) for Summer 2024. Through various experiences, he has 
-          gained exposure to areas of software development, computer networks, 
-          AI, hardware, and web development.
+          Charles Hsieh is a MASc student at University of Toronto specializing 
+          in the field of Electrical & Computer Engineering (ECE). He has worked 
+          as a research intern and research trainee at University of Toronto under 
+          the Center of Excellence for Networking Innovation in Toronto (CENIT) 
+          for summers 2024 and 2025 respectively. Through various experiences, 
+          he has gained exposure to areas of software development, computer 
+          networks, AI, and web development.
           <br /><br />
           This website serves as an online portfolio to help better understand
           Charles.
@@ -29,6 +30,28 @@ const PageTitle = () => {
 const EducationDescriptions = () => {
   return(
     <>
+      <Education 
+        image={ut}
+        image_alt={"University of Toronto"}
+        school_name={"University of Toronto"}
+        description={
+          <>
+            Date: Sep. 2025 - Present
+            <br />
+            Master of Applied Science (MASc) in Electrical & Computer 
+            Engineering (ECE)
+            <br /> <br />
+            Charles' supervisor is Professor J.J. Garcia-Luna-Aceves (Canada 
+            Excellence Research Chair).
+          </>
+        }
+        button={"N/A"}
+        table1={"N/A"}
+        table2={"N/A"}
+        table3={"N/A"}
+        table4={"N/A"}
+      />
+
       <Education 
         image={ut}
         image_alt={"University of Toronto"}
@@ -49,8 +72,8 @@ const EducationDescriptions = () => {
             stream of TrackOne, Undeclared Engineering. After finishing first 
             year, he transferred into the stream of Electrical & Computer 
             Engineering (ECE) to continue his degree. He graduated as a Computer
-            Engineer (CE) with an AI minor and business certificate. The 
-            following tables lists out all the courses that he has completed.
+            Engineer with an AI minor and business certificate. The following 
+            tables lists out all the courses that he has completed.
           </>
         }
         button={"N/A"}
@@ -113,7 +136,7 @@ const EducationDescriptions = () => {
             <br />
             Average for Grade 12 Courses: 98.6%
             <br />
-            Average Score: 95.8%
+            Average Grade: 95.8%
             <br />
             <br /><br />
             After Charles completing his diploma, he had taken a series of 
@@ -150,6 +173,7 @@ const EducationDescriptions = () => {
         table2={"N/A"}
         table3={"N/A"}
         table4={"N/A"}
+        horizontal_break={"N/A"}
       />
     </>
   )
