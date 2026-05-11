@@ -1,3 +1,9 @@
 .charles__projects {
   background: var(--color-projects);
 }
+
+.charles__projects a {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import './contact.css';
-import { github, linkedin } from './imports';
+import { github, linkedin, google_scholar, orcid } from './imports';
 import { Footer } from '../../components';
 
 
@@ -16,7 +16,19 @@ const IconList = () => {
       <ImageIcon 
         title={"LinkedIn:"}
         image={linkedin}
-        link={"https://www.linkedin.com/in/charles-hsieh-856682239/"}
+        link={"https://ca.linkedin.com/in/charles-hsieh-856682239"}
+      />
+
+      <ImageIcon 
+        title={"Google Scholar:"}
+        image={google_scholar}
+        link={"https://scholar.google.com/citations?user=V3XptIcAAAAJ&hl=en&oi=ao"}
+      />
+
+      <ImageIcon 
+        title={"ORCid:"}
+        image={orcid}
+        link={"https://orcid.org/0009-0004-3515-4576"}
       />
     </>
   )

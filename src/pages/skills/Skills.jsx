@@ -1,6 +1,15 @@
 import React from 'react';
 import './skills.css';
-import { cpp, c, python, react, javascript, css, html, matLab, github, git, latex, verilog, arm, quartus, gtk, vscode, LTSpice, multisim, logisim, valgrind, glade, modelsim, Linux, OpenMP, GitLab, Sentaurus, Wireshark, NumPy, SciPy, Pandas, Matplotlib, Keil, STM32CubeIDE, STM32CubeMX, STM32F446ZE, DE1SoC, PyTorch, Hercules, Jupyter, GoogleColab, Bash, NS3, GDB, gem5, CBP4, gRPC} from './imports.js';
+import { 
+  cpp, c, python, react, javascript, css, html, matLab, github, git, 
+  latex, verilog, arm, quartus, gtk, vscode, LTSpice, multisim, logisim, 
+  valgrind, glade, modelsim, Linux, OpenMP, GitLab, Sentaurus, Wireshark, NumPy, 
+  SciPy, Pandas, Matplotlib, Keil, STM32CubeIDE, STM32CubeMX, STM32F446ZE, 
+  DE1SoC, PyTorch, Hercules, Jupyter, GoogleColab, Bash, NS3, GDB, gem5, CBP4, 
+  gRPC, Rust, crates_io, HTTP, pthreads, Docker, Arduino_IDE, MQTT, AMQP,
+  RabbitMQ, Elasticsearch, Logstash, Murphi, JSON, RaspberryPi3BPlus, ESP8266,
+  Breadboard, Kubernetes, PPK2, LoRaRadio
+} from './imports.js';
 import { Footer } from '../../components';
 
 const SkillsList = () => {
@@ -19,6 +28,12 @@ const SkillsList = () => {
       />
 
       <ImageSkillsContainer 
+        title={"Rust"}
+        image={Rust}
+        image_alt={"Rust"}
+      />
+
+      <ImageSkillsContainer 
         title={"Python"}
         image={python}
         image_alt={"Python"}
@@ -28,6 +43,12 @@ const SkillsList = () => {
         title={"Linux"}
         image={Linux}
         image_alt={"Linux"}
+      />
+
+      <ImageSkillsContainer 
+        title={"crates.io"}
+        image={crates_io}
+        image_alt={"crates.io"}
       />
       
       <ImageSkillsContainer 
@@ -97,15 +118,81 @@ const SkillsList = () => {
       />
 
       <ImageSkillsContainer 
+        title={"Docker"}
+        image={Docker}
+        image_alt={"Docker"}
+      />
+
+      <ImageSkillsContainer 
         title={"Valgrind"}
         image={valgrind}
         image_alt={"Valgrind"}
       />
 
       <ImageSkillsContainer 
+        title={"HTTP"}
+        image={HTTP}
+        image_alt={"HTTP"}
+      />
+
+      <ImageSkillsContainer 
+        title={"pthreads"}
+        image={pthreads}
+        image_alt={"pthreads"}
+      />
+
+      <ImageSkillsContainer 
         title={"OpenMP"}
         image={OpenMP}
         image_alt={"OpenMP"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Arduino IDE"}
+        image={Arduino_IDE}
+        image_alt={"Arduino IDE"}
+      />
+
+      <ImageSkillsContainer 
+        title={"gem5"}
+        image={gem5}
+        image_alt={"gem5"}
+      />
+
+      <ImageSkillsContainer 
+        title={"JSON"}
+        image={JSON}
+        image_alt={"JSON"}
+      />
+
+      <ImageSkillsContainer 
+        title={"MQTT"}
+        image={MQTT}
+        image_alt={"MQTT"}
+      />
+
+      <ImageSkillsContainer 
+        title={"AMQP"}
+        image={AMQP}
+        image_alt={"AMQP"}
+      />
+
+      <ImageSkillsContainer 
+        title={"RabbitMQ"}
+        image={RabbitMQ}
+        image_alt={"RabbitMQ"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Elasticsearch"}
+        image={Elasticsearch}
+        image_alt={"Elasticsearch"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Logstash"}
+        image={Logstash}
+        image_alt={"Logstash"}
       />
 
       <ImageSkillsContainer 
@@ -175,15 +262,51 @@ const SkillsList = () => {
       />
 
       <ImageSkillsContainer 
-        title={"gem5"}
-        image={gem5}
-        image_alt={"gem5"}
+        title={"Murphi"}
+        image={Murphi}
+        image_alt={"Murphi"}
       />
 
       <ImageSkillsContainer 
         title={"CBP-4 Simulator"}
         image={CBP4}
         image_alt={"CBP-4"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Raspberry Pi 3 B+"}
+        image={RaspberryPi3BPlus}
+        image_alt={"Raspberry Pi 3 B+"}
+      />
+
+      <ImageSkillsContainer 
+        title={"ESP8266"}
+        image={ESP8266}
+        image_alt={"ESP8266"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Breadboard"}
+        image={Breadboard}
+        image_alt={"Breadboard"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Power Profiler Kit 2"}
+        image={PPK2}
+        image_alt={"Power Profiler Kit 2"}
+      />
+
+      <ImageSkillsContainer 
+        title={"LoRa Radio"}
+        image={LoRaRadio}
+        image_alt={"LoRa Radio"}
+      />
+
+      <ImageSkillsContainer 
+        title={"Kubernetes"}
+        image={Kubernetes}
+        image_alt={"Kubernetes"}
       />
 
       <ImageSkillsContainer 

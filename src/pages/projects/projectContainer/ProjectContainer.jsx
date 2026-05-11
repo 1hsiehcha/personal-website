@@ -54,13 +54,13 @@ const ProjectContainer = (props) => {
         </h2>
 
         <h2>
-          Technologies Used:
+          Technologies/Concepts:
           <p>{props.tool}</p>
         </h2>
 
         
         <h2>
-          Project Status:
+          Status:
           
           {props.status.map((button, index) => (
             <p><Badge bg={button.color} key={index}>{button.name}</Badge></p>

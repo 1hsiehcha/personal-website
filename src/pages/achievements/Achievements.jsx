@@ -7,6 +7,17 @@ const AchievementsList = () => {
   return (
     <>
       <Feature 
+        title={"Edward S. Rogers Sr. Graduate Scholarship"}
+        text={
+        <>
+          Date: Oct. 2025<br /><br />
+          This award is given out to graduate ECE research-stream students who 
+          are in a good academic standing while studying the University of 
+          Toronto.
+        </>}
+      />
+
+      <Feature 
         title={"Winter 2025 Dean's Honour List at University of Toronto"}
         text={
         <>

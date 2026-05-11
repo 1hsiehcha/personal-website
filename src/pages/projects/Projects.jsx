@@ -19,20 +19,108 @@ import {
   PenTrackerSix, PenTrackerSeven, PenTrackerEight, PenTrackerNine, 
   PenTrackerTen, PenTrackerEleven, PenTrackerTwelve, PenTrackerThirteen,
   ECE421Lab3Error, ECE421Lab3Loss,
-  ECE421Lab4Game, ECE421Lab4Results
+  ECE421Lab4Game, ECE421Lab4Results,
+  ECE1528ProjectOne, ECE1528ProjectTwo, ECE1528ProjectThree, ECE1528ProjectFour,
+  ECE1528ProjectFive, ECE1528ProjectSix, ECE1528ProjectSeven,
+  ECE1528ProjectEight, ECE1528ProjectNine, ECE1528ProjectTen,
+  ECE1528ProjectEleven, ECE1528ProjectTwelve, ECE1528ProjectThirteen,
+  ECE1528ProjectFourteen, ECE1528ProjectFifteen,
+  ECE1724F1ProjectOne, ECE1724F1ProjectTwo, ECE1724F1ProjectThree, 
+  ECE1724F1ProjectFour, ECE1724F1ProjectFive, ECE1724F1ProjectSix, 
+  ECE1724F1ProjectSeven, ECE1724F1ProjectEight, ECE1724F1ProjectNine, 
+  ECE1724F1ProjectTen, ECE1724F1ProjectEleven,
+  ECE1755ProjectOne, ECE1755ProjectTwo, ECE1755ProjectThree, ECE1755ProjectFour,
+  ECE1755ProjectFive, ECE1755ProjectSix, ECE1755ProjectSeven,
+  ECE1755ProjectEight, ECE1755ProjectNine, ECE1755ProjectTen,
+  ECE1755ProjectEleven, ECE1755ProjectTwelve, ECE1755ProjectThirteen
 } from './imports.js';
 
 const PublicationsList = () => {
   return (
     <>
       <ProjectContainer
-        name={"Spreading computations for loop-free multipath routing in computer networks"}
+        name={"Distance-Based Loop-Free Routing with Positive and Negative Link Weights"}
         images={"N/A"}
         length={500}
-        type={"Publication (Full Paper)"}
+        type={"Full Conference Paper"}
+        date={"Oct. 2025"}
+        role={"Co-author"}
+        tool={"C++, Bash, Python, Pandas, NumPy, Subprocess, Argparse, Psutil."}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          Abstract:
+          An efficient approach to distance-based loop-free routing is 
+          introduced called THOR (Transitive Hop-Ordered Routing) that, in 
+          contrast to all prior distributed routing algorithms and routing 
+          protocols, works correctly in the presence of negative link weights. 
+          THOR is shown to provide loop-free routing and to converge to shortest 
+          paths within a finite time. THOR is compared with OSPF using the ns-3 
+          simulator for the case of minimum-hop routing, and the simulation 
+          results show that the approach used in THOR leads to faster 
+          convergence and less signalling overhead.
+          <br /><br />
+          Due to academic integrity, the source code of the NS-3 simulations 
+          cannot be shared whatsoever. Please feel free to reach out if you have 
+          any questions!
+        </>}
+        link={"https://ieeexplore.ieee.org/document/11250471"}
+        github={"N/A"}
+        demo={"N/A"}
+        horizontal_break={true}
+      />
+
+      <ProjectContainer
+        name={"Using Path Identifiers for Efficient Loop-Free Routing in Computer Networks"}
+        images={"N/A"}
+        length={500}
+        type={"Full Conference Paper"}
+        date={"Oct. 2025"}
+        role={"Co-author"}
+        tool={"Complexity Analysis."}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          Abstract:
+          A new family of algorithms for loop-free routing over multiple paths 
+          based on path identifiers is introduced. It is shown that different 
+          types of path identifiers can be used to attain loop-free routing if 
+          total ordering is established among such identifiers. A path 
+          identifier can range from the path itself to a succinct representation 
+          of it that need not be unique. POLAR (Path-Ordered Loop-free Algorithm 
+          for Routing) is presented as an example in which each router labels 
+          its shortest distance to each destination with a path identifier 
+          consisting of the number of hops and the identifier of the 
+          second-to-last hop along its least preferred loop-free path to that 
+          destination. POLAR is shown to converge to shortest paths without ever 
+          creating loops, and to be able to converge faster than routing 
+          protocols like OSPF depending on the type of topology changes taking 
+          place in a network.
+          <br /><br />
+          Please feel free to reach out if you have any questions!
+        </>}
+        link={"https://ieeexplore.ieee.org/document/11223326"}
+        github={"N/A"}
+        demo={"N/A"}
+        horizontal_break={true}
+      />
+
+      <ProjectContainer
+        name={"Spreading Computations for Loop-Free Multipath Routing in Computer Networks"}
+        images={"N/A"}
+        length={500}
+        type={"Full Conference Paper"}
         date={"Nov. 2024"}
         role={"Co-author"}
-        tool={"C++, Google Cloud, Bash, Python, Pandas, NumPy, Subprocess, Argparse, Psutil, and JSON."}
+        tool={"C++, Google Cloud, Bash, Python, Pandas, NumPy, Subprocess, Argparse, Psutil, JSON."}
         status={
           [
             {color: "success", name: "Completed"}
@@ -54,9 +142,9 @@ const PublicationsList = () => {
           results show that using spreading computations results in faster 
           convergence speeds after link or router recoveries or failures.
           <br /><br />
-          Due to academic integrity, the source code of the NS-3 tests cannot be 
-          shared whatsoever. Please feel free to reach out if you have any 
-          questions!
+          Due to academic integrity, the source code of the NS-3 simulations 
+          cannot be shared whatsoever. Please feel free to reach out if you have 
+          any questions!
         </>}
         link={"https://ieeexplore.ieee.org/document/10850473"}
         github={"N/A"}
@@ -69,6 +157,243 @@ const PublicationsList = () => {
 const ProjectsList = () => {
   return (
     <>
+      <ProjectContainer
+        name={"Evaluating the Disintegration Slowdown of Applications Using LEGOSim"}
+        images={[
+          {source: ECE1755ProjectOne, caption: "", alt: ""},
+          {source: ECE1755ProjectTwo, caption: "", alt: ""},
+          {source: ECE1755ProjectThree, caption: "", alt: ""},
+          {source: ECE1755ProjectFour, caption: "", alt: ""},
+          {source: ECE1755ProjectFive, caption: "", alt: ""},
+          {source: ECE1755ProjectSix, caption: "", alt: ""},
+          {source: ECE1755ProjectSeven, caption: "", alt: ""},
+          {source: ECE1755ProjectEight, caption: "", alt: ""},
+          {source: ECE1755ProjectNine, caption: "", alt: ""},
+          {source: ECE1755ProjectTen, caption: "", alt: ""},
+          {source: ECE1755ProjectEleven, caption: "", alt: ""},
+          {source: ECE1755ProjectTwelve, caption: "", alt: ""},
+          {source: ECE1755ProjectThirteen, caption: "", alt: ""}
+        ]}
+        imageOrientation={"landscape"}
+        length={500}
+        type={"Project (Academia)"}
+        date={"Jan. 2026 - Apr. 2026"}
+        role={"Part of a three‑person team"}
+        tool={"LEGOSim, gem5, C/C++, Bash, Python, CSV, JSON."}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          This project presents a re-evaluation of <a href="https://dl.acm.org/doi/pdf/10.1145/3610396.3618090">Brkić & Jeffrey's paper</a> on 
+          disintegration slowdown, that is, the performance loss that occurs 
+          when a monolithic manycore processor is partitioned into multiple 
+          chiplets on a single package. While the earlier study evaluated 
+          disintegration slowdown on many applications, it was conducted using 
+          a <a href="https://dl.acm.org/doi/pdf/10.1145/2830772.2830777">simulator</a> that 
+          was not designed for chiplet-based systems. In this project, we 
+          revisit that performance loss using <a href="https://dl.acm.org/doi/pdf/10.1145/3725843.3756068">LEGOSim</a>, 
+          a chiplet-oriented simulator, to determine whether the main 
+          conclusions of the earlier work still hold under a more explicit and 
+          higher-fidelity chiplet model.
+          <br /><br />
+          Our contributions are both practical and experimental. To ensure the 
+          benchmarks from <a href="https://www.edujgh.net/Papers/iiswc22.pdf">Splash-4</a>, <a href="https://d1wqtxts1xzle7.cloudfront.net/52599349/Rodinia_A_benchmark_suite_for_heterogene20170412-335-12ifuck-libre.pdf?1492034621=&response-content-disposition=inline%3B+filename%3DRodinia_A_benchmark_suite_for_heterogene.pdf&Expires=1778437849&Signature=FLFOX6f4Rw9yejEkFyXxFfblAT-BypOqMZZJ1eYCpcgBUnMh0YbZoSMjuqmHln2DXkwABPRS-pwhGkCXI3Q9IlVPIIB~FEwTdHWYNToFyzwZzE58xFUW9~ekx~p4znR~01xeKlsCC4zWFYzInMhAnNSWp5ljEbIQrJOEz40lM7PKrCjqGGumlBBRE~37x~A6jYO950JOfLh13FhbkFKOkHULAiyhpyj94CTIV0AmOAUAJo9gmP~q73E-wdBI~ZAbgcub0hCEFHf3PusccFpF3bCgmxXQN7S1yUk3hj7ij9ImEpyhK9n~u2iR70W51Hdsre0YKo0g3J8QZinp5LcqSQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"> Rodinia</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/1454115.1454128">PARSEC</a>, 
+          and LEGOSim's built-in suite run on the simulator, we converted shared-memory 
+          implementations into LEGOSim's message-passing API. We also fixed 
+          benchmark and simulator issues that prevented stable execution and 
+          built scripts that automate benchmarking, correctness validation, 
+          metric extraction, and figure generation. We also extended the 
+          benchmark set with additional workloads from 
+          the <a href="https://d1wqtxts1xzle7.cloudfront.net/52599349/Rodinia_A_benchmark_suite_for_heterogene20170412-335-12ifuck-libre.pdf?1492034621=&response-content-disposition=inline%3B+filename%3DRodinia_A_benchmark_suite_for_heterogene.pdf&Expires=1778438187&Signature=RlHEhwP6AMlGIh0fm9Gqh6HguqO9i83mQ3x7z7-K3ijQLITXYMTHYRe4LfeMt-S~9jrfUPBzbiYxBNWD0H2WfJ-~urmSl0o-FyTyEZFkOkSSRrgGKSWuL3zAHVV1I64R4OqF87RNfVBYaDKefdlT4K8FUzAcnN0eVtq1kociQEC5dobH5~-WaxrMvHFkVPJcptKG4tlj07kM3b2RsqRybx3iOwhHaovEr2WxHddUozHpsGTuCcEjfgJw8TBy-lv4asZMGGI9cFZ7Qh6rzqXkpOj5bPQvC4ZhnnMi07q-B1cC1cJxnVDBpUyLd8YKNgt3WKWvtv91Wq~EhdsoosiS1A__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA">Rodinia</a> suite 
+          and corrected problematic benchmark configurations from 
+          matrix-multiplication and MLP-mesh tests.
+          <br /><br/>
+          Our results confirm the main qualitative insight from
+          the <a href="https://dl.acm.org/doi/pdf/10.1145/3610396.3618090">earlier paper</a>, 
+          specifically, disintegration slowdown varies drastically across 
+          applications. Some benchmarks remain close to monolithic performance 
+          such as blackscholes (0.977) and hotspot (0.912), while others degrade 
+          much more severely, such as radix (0.207), MLP-mesh (0.283), and 
+          kmeans (0.317). We also find that MCM and CMesh often produce similar 
+          slowdown values, which is most likely a limitation of the 
+          Network-on-Package (NoP) module and our setup. Finally, traditional 
+          monolithic performance metrics correlate weakly with disintegration 
+          slowdown, while communication-oriented metrics are more informative 
+          predictors.
+          <br /><br />
+          Due to academic integrity, the source code of this project cannot be 
+          shared whatsoever. Please feel free to reach out if you have any 
+          questions regarding the project!
+        </>}
+        link={"N/A"}
+        github={"N/A"}
+        demo={"N/A"}
+        horizontal_break={true}
+      />
+
+      <ProjectContainer
+        name={"Personal Finance Tracker"}
+        images={[
+          {source: ECE1724F1ProjectOne, caption: "", alt: ""},
+          {source: ECE1724F1ProjectTwo, caption: "", alt: ""},
+          {source: ECE1724F1ProjectThree, caption: "", alt: ""},
+          {source: ECE1724F1ProjectFour, caption: "", alt: ""},
+          {source: ECE1724F1ProjectFive, caption: "", alt: ""},
+          {source: ECE1724F1ProjectSix, caption: "", alt: ""},
+          {source: ECE1724F1ProjectSeven, caption: "", alt: ""},
+          {source: ECE1724F1ProjectEight, caption: "", alt: ""},
+          {source: ECE1724F1ProjectNine, caption: "", alt: ""},
+          {source: ECE1724F1ProjectTen, caption: "", alt: ""},
+          {source: ECE1724F1ProjectEleven, caption: "", alt: ""}
+        ]}
+        imageOrientation={"landscape"}
+        length={500}
+        type={"Project (Academia)"}
+        date={"Oct. 2025 - Dec. 2025"}
+        role={"Part of a three‑person team"}
+        tool={"Rust including third-party crates (like Rocket, SQLx, and Ratatui)."}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          The main purpose of the personal finance tracker is to allow users to
+          track their income and expenses through account reconciliation and 
+          advanced data visualizations. First, this application provide 
+          multi-user support by using a dedicated signup and login page. The 
+          login page performs credential validation while the signup page 
+          forbid the creation of erroneous accounts. After login, the user is 
+          able to log transactions to any of the predefined categories along 
+          with the account type. The system then performs error checking to 
+          ensure the transactions are valid. Once the transactions are logged, 
+          the account reconciliation page displays the balance of each of their 
+          accounts along with its 10 most recent transactions. Furthermore, the 
+          data visualization page provides a bar graph showing the deposits and 
+          expenses of each category in the current and previous month. It also 
+          shows a 6-month trend line for each category. The final data 
+          visualization is a table showing the monthly net balance for each 
+          category for the current year. The user can also request to download a 
+          PDF that shows the net balance in their accounts along with 
+          the balance in each spending category.
+          <br /><br />
+          To allow users to import a large number of historical transactions, 
+          this application supports the operation of bulk upload. That is, a 
+          user can input a text file with numerous transactions with each 
+          transaction being encoded as a JSON format.
+          <br /><br />
+          The personal finance tracker is built using a full-stack design 
+          featuring a backend web server, persistent database storage, and a 
+          responsive Text User Interface (TUI). The project is split into 3 
+          workspaces with the first one dedicated to the frontend, the second 
+          one dedicated to the backend, and the last one dedicated to database 
+          creation. The frontend communicates with the backend using HTTPS along 
+          with session cookies, tokens, and guards. The Sqlite database allows 
+          persistent storage and stores all passwords as hashes to protect 
+          sensitive data. Both the web server and database are implemented using 
+          asynchronous functions to improve performance and concurrency.
+          <br /><br />
+          The final project grade was never released due to administrative 
+          reasons. But Charles managed to earn A+ in this course!
+          <br /><br />
+          Due to academic integrity, the source code of this project cannot be 
+          shared whatsoever. Please feel free to watch the demo video or 
+          reach out if you have any questions!
+        </>}
+        link={"N/A"}
+        github={"N/A"}
+        demo={"https://youtu.be/0pgh1i8N-n4"}
+        horizontal_break={true}
+      />
+
+      <ProjectContainer
+        name={"IoT-based Smart Water Bottle"}
+        images={[
+          {source: ECE1528ProjectOne, caption: "", alt: ""},
+          {source: ECE1528ProjectTwo, caption: "", alt: ""},
+          {source: ECE1528ProjectThree, caption: "", alt: ""},
+          {source: ECE1528ProjectFour, caption: "", alt: ""},
+          {source: ECE1528ProjectFive, caption: "", alt: ""},
+          {source: ECE1528ProjectSix, caption: "", alt: ""},
+          {source: ECE1528ProjectSeven, caption: "", alt: ""},
+          {source: ECE1528ProjectEight, caption: "", alt: ""},
+          {source: ECE1528ProjectNine, caption: "", alt: ""},
+          {source: ECE1528ProjectTen, caption: "", alt: ""},
+          {source: ECE1528ProjectEleven, caption: "", alt: ""},
+          {source: ECE1528ProjectTwelve, caption: "", alt: ""},
+          {source: ECE1528ProjectThirteen, caption: "", alt: ""},
+          {source: ECE1528ProjectFourteen, caption: "", alt: ""},
+          {source: ECE1528ProjectFifteen, caption: "", alt: ""},
+        ]}
+        imageOrientation={"landscape"}
+        length={500}
+        type={"Project (Academia)"}
+        date={"Sept. 2025 - Dec. 2025"}
+        role={"Part of a three‑person team"}
+        tool={"ESP8266, Raspberry Pi, MQTT, HTTP, DigitalOcean Droplet, Docker Compose, React, Weight Sensor (Load Cell + HX711), Gyroscope & Accelerometer (MPU6050), Temperature Sensor (DS18B20), LCD Display, Red LED Light."}
+        status={
+          [
+            {color: "success", name: "Completed"}
+          ]
+        }
+        description={
+        <>
+          Our IoT-based smart water bottle automatically notifies the user 
+          via email and a physical red LED light whenever the volume of the 
+          bottle fails below the user set threshold. This threshold is set by 
+          the user using a frontend web dashboard. This is particularly useful 
+          in the context of breweries where the liquid level must maintained at 
+          a certain level to ensure process efficiency in stages of 
+          fermentation, lautering, and storage. The frontend web dashboard also 
+          allows the user to toggle cleaning mode in order to pause all sensor 
+          readings while the bottle is being scrubbed. The bottle also sends out 
+          an email notification whenever a potential spilling hazard is 
+          detected and that same warning is displayed on the web dashboard.
+          <br /><br />
+          The system is comprised of many components. The component that resides
+          at the water bottle is the ESP8266 microcontroller that interfaces 
+          with the sensors and actuators. The ESP8266 also interfaces with the 
+          Raspberry Pi that acts as the edge device which is responsible for 
+          bi-directional communication between the microcontroller and the 
+          cloud. The cloud is hosted on DigitalOcean and features a 
+          frontend web dashboard created using React. 
+          <br /><br />
+          The load cell and HX711 amplifier is used to measure the weight of 
+          the bottle. This weight is converted into volume by dividing it by the 
+          liquid's density. To exclude the actual weight of the bottle itself, 
+          we perform a tare operation at program startup. To detect potential 
+          spilling hazards, we use the MPU6050 gyroscope and accelerometer. A 
+          complementary filter combines the measurements from both the gyroscope 
+          and the accelerometer to calculate the yaw, pitch, and roll. When the 
+          bottle is upside down (aka when the row or pitch is between 160° to 
+          200°), a spilling hazard is triggered. Finally, a DS18B20 waterproof 
+          sensor is used to measure the temperature of the bottle.
+          <br /><br />
+          Actuation commands are shown on the LCD display. These commands are 
+          passed from edge device to the microntroller using the MQTT protocol. 
+          Whereas, the communication between the edge device and the cloud is 
+          done using HTTP methods. The edge device provide support for fault 
+          tolerance and deployment of multiple bottles. The microcontroller also 
+          attempts to re-register the bottle if the connection is ever lost.
+          <br /><br />
+          As a result of their collective efforts, they earned 93.33% for this 
+          entire project! The professor credited us saying "Project is very 
+          original and presents a good engineering solution".
+          <br /><br />
+          Due to academic integrity, the source code of this project cannot be 
+          shared whatsoever. Please feel free to watch the demo video or 
+          reach out if you have any questions!
+        </>}
+        link={"N/A"}
+        github={"N/A"}
+        demo={"https://youtu.be/Z-uEO6KqJsA"}
+        horizontal_break={true}
+      />
+
       <ProjectContainer
         name={"Handwriting-To-Text Converter (CNN + GRU)"}
         images={
@@ -857,9 +1182,9 @@ const Projects = () => {
               This page lists out some of the projects and publications 
               that Charles has worked on. These projects and publications are 
               generally more difficult, so it requires him to have a greater 
-              understanding of the respective topics and design in general. 
-              Through this process, it showcases some of the skills that Charles 
-              has gained throughout his career.
+              understanding of the respective topics. Through this process, it 
+              showcases some of the skills that Charles has gained throughout 
+              his career.
             </>
           }
         />

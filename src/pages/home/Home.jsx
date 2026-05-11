@@ -11,13 +11,14 @@ const PageTitle = () => {
       title={"Welcome!"}
       description={
         <>
-          Charles Hsieh is a MASc student at University of Toronto specializing 
-          in the field of Electrical & Computer Engineering (ECE). He has worked 
-          as a research intern and research trainee at University of Toronto under 
-          the Center of Excellence for Networking Innovation in Toronto (CENIT) 
-          for summers 2024 and 2025 respectively. Through various experiences, 
-          he has gained exposure to areas of software development, computer 
-          networks, AI, and web development.
+          Charles Hsieh is a current MASc student at the University of Toronto 
+          specializing in the field of Electrical & Computer Engineering (ECE). 
+          He has worked in summers 2024 and 2025 as a research intern and 
+          research trainee at the University of Toronto under the research group 
+          of CENIT (Center of Excellence for Networking Innovation in Toronto). 
+          Through various course work and projects, he has gained exposure to 
+          areas of software development, computer network, AI, IoT, and web 
+          development.
           <br /><br />
           This website serves as an online portfolio to help better understand
           Charles.
@@ -40,13 +41,26 @@ const EducationDescriptions = () => {
             <br />
             Master of Applied Science (MASc) in Electrical & Computer 
             Engineering (ECE)
+            <br />
+            Cumulative GPA: TBD
             <br /> <br />
-            Charles' supervisor is Professor J.J. Garcia-Luna-Aceves (Canada 
-            Excellence Research Chair).
+            Charles Hsieh's supervisor is Professor J.J. Garcia-Luna-Aceves who 
+            hold the honour of being the Canada Excellence Research Chair. The 
+            following table lists out all the courses that Charles has completed 
+            for the MASc degree.
           </>
         }
         button={"N/A"}
-        table1={"N/A"}
+        table1={     
+          [
+            {title: "First Year"},
+            {headerOne: "Fall 2025", headerTwo: "Winter 2026"},
+            {first: "ECE1528H F Special Topics in Data Communications: Internet of Things - From Protocols to Applications", second: "ECE1755H S Parallel Computer Architecture and Programming"},
+            {first: "ECE1541H F Communication Networks I", second: "ECE1762H S Algorithms and Data Structures"},
+            {first: "ECE1724H F1 Special Topics in Software Engineering: Performant Software Systems with Rust", second: ""},
+            {first: "JDE1000H F Ethics in Research", second: ""}
+          ]
+        }
         table2={"N/A"}
         table3={"N/A"}
         table4={"N/A"}

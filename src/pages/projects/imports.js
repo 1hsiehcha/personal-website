@@ -54,6 +54,45 @@ import ECE421Lab3Error from '../../assets/ECE421-Lab-3-error.png';
 import ECE421Lab3Loss from '../../assets/ECE421-Lab-3-loss.png';
 import ECE421Lab4Game from '../../assets/ECE421-Lab-4-Game.png';
 import ECE421Lab4Results from '../../assets/ECE421-Lab-4-Results.png';
+import ECE1528ProjectOne from '../../assets/ECE1528-Project-1.png';
+import ECE1528ProjectTwo from '../../assets/ECE1528-Project-2.png';
+import ECE1528ProjectThree from '../../assets/ECE1528-Project-3.png';
+import ECE1528ProjectFour from '../../assets/ECE1528-Project-4.png';
+import ECE1528ProjectFive from '../../assets/ECE1528-Project-5.png';
+import ECE1528ProjectSix from '../../assets/ECE1528-Project-6.png';
+import ECE1528ProjectSeven from '../../assets/ECE1528-Project-7.png';
+import ECE1528ProjectEight from '../../assets/ECE1528-Project-8.png';
+import ECE1528ProjectNine from '../../assets/ECE1528-Project-9.png';
+import ECE1528ProjectTen from '../../assets/ECE1528-Project-10.png';
+import ECE1528ProjectEleven from '../../assets/ECE1528-Project-11.png';
+import ECE1528ProjectTwelve from '../../assets/ECE1528-Project-12.png';
+import ECE1528ProjectThirteen from '../../assets/ECE1528-Project-13.png';
+import ECE1528ProjectFourteen from '../../assets/ECE1528-Project-14.png';
+import ECE1528ProjectFifteen from '../../assets/ECE1528-Project-15.png';
+import ECE1724F1ProjectOne from '../../assets/ECE1724H-F1-Project-1.png';
+import ECE1724F1ProjectTwo from '../../assets/ECE1724H-F1-Project-2.png';
+import ECE1724F1ProjectThree from '../../assets/ECE1724H-F1-Project-3.png';
+import ECE1724F1ProjectFour from '../../assets/ECE1724H-F1-Project-4.png';
+import ECE1724F1ProjectFive from '../../assets/ECE1724H-F1-Project-5.png';
+import ECE1724F1ProjectSix from '../../assets/ECE1724H-F1-Project-6.png';
+import ECE1724F1ProjectSeven from '../../assets/ECE1724H-F1-Project-7.png';
+import ECE1724F1ProjectEight from '../../assets/ECE1724H-F1-Project-8.png';
+import ECE1724F1ProjectNine from '../../assets/ECE1724H-F1-Project-9.png';
+import ECE1724F1ProjectTen from '../../assets/ECE1724H-F1-Project-10.png';
+import ECE1724F1ProjectEleven from '../../assets/ECE1724H-F1-Project-11.png';
+import ECE1755ProjectOne from '../../assets/ECE1755-Project-1.png';
+import ECE1755ProjectTwo from '../../assets/ECE1755-Project-2.png';
+import ECE1755ProjectThree from '../../assets/ECE1755-Project-3.png';
+import ECE1755ProjectFour from '../../assets/ECE1755-Project-4.png';
+import ECE1755ProjectFive from '../../assets/ECE1755-Project-5.png';
+import ECE1755ProjectSix from '../../assets/ECE1755-Project-6.png';
+import ECE1755ProjectSeven from '../../assets/ECE1755-Project-7.png';
+import ECE1755ProjectEight from '../../assets/ECE1755-Project-8.png';
+import ECE1755ProjectNine from '../../assets/ECE1755-Project-9.png';
+import ECE1755ProjectTen from '../../assets/ECE1755-Project-10.png';
+import ECE1755ProjectEleven from '../../assets/ECE1755-Project-11.png';
+import ECE1755ProjectTwelve from '../../assets/ECE1755-Project-12.png';
+import ECE1755ProjectThirteen from '../../assets/ECE1755-Project-13.png';
 
 export {
   reversiOne,
@@ -111,5 +150,44 @@ export {
   ECE421Lab3Error,
   ECE421Lab3Loss,
   ECE421Lab4Game,
-  ECE421Lab4Results
+  ECE421Lab4Results,
+  ECE1528ProjectOne,
+  ECE1528ProjectTwo,
+  ECE1528ProjectThree,
+  ECE1528ProjectFour,
+  ECE1528ProjectFive,
+  ECE1528ProjectSix,
+  ECE1528ProjectSeven,
+  ECE1528ProjectEight,
+  ECE1528ProjectNine,
+  ECE1528ProjectTen,
+  ECE1528ProjectEleven,
+  ECE1528ProjectTwelve,
+  ECE1528ProjectThirteen,
+  ECE1528ProjectFourteen,
+  ECE1528ProjectFifteen,
+  ECE1724F1ProjectOne,
+  ECE1724F1ProjectTwo,
+  ECE1724F1ProjectThree,
+  ECE1724F1ProjectFour,
+  ECE1724F1ProjectFive,
+  ECE1724F1ProjectSix,
+  ECE1724F1ProjectSeven,
+  ECE1724F1ProjectEight,
+  ECE1724F1ProjectNine,
+  ECE1724F1ProjectTen,
+  ECE1724F1ProjectEleven,
+  ECE1755ProjectOne,
+  ECE1755ProjectTwo,
+  ECE1755ProjectThree,
+  ECE1755ProjectFour,
+  ECE1755ProjectFive,
+  ECE1755ProjectSix,
+  ECE1755ProjectSeven,
+  ECE1755ProjectEight,
+  ECE1755ProjectNine,
+  ECE1755ProjectTen,
+  ECE1755ProjectEleven,
+  ECE1755ProjectTwelve,
+  ECE1755ProjectThirteen
 }

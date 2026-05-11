@@ -44,6 +44,25 @@ import GDB from '../../assets/GDB.png';
 import gem5 from '../../assets/gem5.png';
 import CBP4 from '../../assets/CBP-4.jpg';
 import gRPC from '../../assets/gRPC.png';
+import Rust from '../../assets/Rust.png';
+import crates_io from '../../assets/crates-io.png';
+import HTTP from '../../assets/HTTP.png';
+import pthreads from '../../assets/pthreads.png';
+import Docker from '../../assets/Docker.png';
+import Arduino_IDE from '../../assets/Arduino IDE.png';
+import MQTT from '../../assets/MQTT.png';
+import AMQP from '../../assets/AMQP.png';
+import RabbitMQ from '../../assets/RabbitMQ.png';
+import Elasticsearch from '../../assets/Elasticsearch.png';
+import Logstash from '../../assets/Logstash.png';
+import Murphi from '../../assets/Murphi.png';
+import JSON from '../../assets/JSON.png';
+import RaspberryPi3BPlus from '../../assets/RaspberryPi 3B+.jpg';
+import ESP8266 from '../../assets/ESP8266.webp';
+import Breadboard from '../../assets/Breadboard.png';
+import Kubernetes from '../../assets/Kubernetes.png';
+import PPK2 from '../../assets/Power Profiler Kit II.webp';
+import LoRaRadio from '../../assets/RFM9X LoRa Radio.png';
 
 export {
   cpp,
@@ -91,5 +110,24 @@ export {
   GDB,
   gem5,
   CBP4,
-  gRPC
+  gRPC,
+  Rust,
+  crates_io,
+  HTTP,
+  pthreads,
+  Docker,
+  Arduino_IDE,
+  MQTT,
+  AMQP,
+  RabbitMQ,
+  Elasticsearch,
+  Logstash,
+  Murphi,
+  JSON,
+  RaspberryPi3BPlus,
+  ESP8266,
+  Breadboard,
+  Kubernetes,
+  PPK2,
+  LoRaRadio
 }
