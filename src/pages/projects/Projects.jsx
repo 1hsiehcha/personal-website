@@ -344,7 +344,7 @@ const ProjectsList = () => {
         <>
           Our IoT-based smart water bottle automatically notifies the user 
           via email and a physical red LED light whenever the volume of the 
-          bottle fails below the user set threshold. This threshold is set by 
+          bottle falls below the user set threshold. This threshold is set by 
           the user using a frontend web dashboard. This is particularly useful 
           in the context of breweries where the liquid level must maintained at 
           a certain level to ensure process efficiency in stages of 

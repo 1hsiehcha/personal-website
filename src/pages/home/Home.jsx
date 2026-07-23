@@ -42,7 +42,7 @@ const EducationDescriptions = () => {
             Master of Applied Science (MASc) in Electrical & Computer 
             Engineering (ECE)
             <br />
-            Cumulative GPA: TBD
+            Cumulative GPA: 4.00/4.00
             <br /> <br />
             Charles Hsieh's supervisor is Professor J.J. Garcia-Luna-Aceves who 
             hold the honour of being the Canada Excellence Research Chair. The 
